@@ -1,0 +1,46 @@
+[
+  {
+    "case_id": "LAB_EXPAT_399",
+    "policy_context": "assignment LAB_POLICY fixture, not current CBK regulatory test",
+    "nationality": "Expat",
+    "monthly_net_salary_kwd": 1000,
+    "existing_debt_monthly_kwd": 200,
+    "proposed_monthly_installment_kwd": 199,
+    "expected_lab_dbr_ratio": 0.399,
+    "lab_policy_cap": 0.4,
+    "expected_boundary_result": "within_lab_cap"
+  },
+  {
+    "case_id": "LAB_EXPAT_401",
+    "policy_context": "assignment LAB_POLICY fixture, not current CBK regulatory test",
+    "nationality": "Expat",
+    "monthly_net_salary_kwd": 1000,
+    "existing_debt_monthly_kwd": 200,
+    "proposed_monthly_installment_kwd": 201,
+    "expected_lab_dbr_ratio": 0.401,
+    "lab_policy_cap": 0.4,
+    "expected_boundary_result": "exceeds_lab_cap"
+  },
+  {
+    "case_id": "LAB_KUWAITI_499",
+    "policy_context": "assignment LAB_POLICY fixture, not current CBK regulatory test",
+    "nationality": "Kuwaiti",
+    "monthly_net_salary_kwd": 1000,
+    "existing_debt_monthly_kwd": 200,
+    "proposed_monthly_installment_kwd": 299,
+    "expected_lab_dbr_ratio": 0.499,
+    "lab_policy_cap": 0.5,
+    "expected_boundary_result": "within_lab_cap"
+  },
+  {
+    "case_id": "LAB_KUWAITI_501",
+    "policy_context": "assignment LAB_POLICY fixture, not current CBK regulatory test",
+    "nationality": "Kuwaiti",
+    "monthly_net_salary_kwd": 1000,
+    "existing_debt_monthly_kwd": 200,
+    "proposed_monthly_installment_kwd": 301,
+    "expected_lab_dbr_ratio": 0.501,
+    "lab_policy_cap": 0.5,
+    "expected_boundary_result": "exceeds_lab_cap"
+  }
+]

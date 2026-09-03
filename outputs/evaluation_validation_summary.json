@@ -1,0 +1,116 @@
+{
+  "a004_mitigated_status": {
+    "accepted": true,
+    "applicant_id": "A004",
+    "confidence": 0.6,
+    "recommendation": "Refer",
+    "review_reasons": [
+      "REFER_REQUIRES_REVIEW"
+    ],
+    "review_required": true,
+    "stored_evidence_note": "Stored evidence records A004 as a valid mitigated Refer recommendation.",
+    "technical_failure": false
+  },
+  "baseline": {
+    "application_count": 60,
+    "evidence_label": "controlled_baseline_evaluation",
+    "outcome_counts": {
+      "Approve": 21,
+      "Decline": 21,
+      "Refer": 18,
+      "TECHNICAL_FAILURE": 0
+    },
+    "outcome_rates": {
+      "Approve": 0.35,
+      "Decline": 0.35,
+      "Refer": 0.3,
+      "TECHNICAL_FAILURE": 0.0
+    },
+    "retry_count": 4,
+    "review_queue_count": 39,
+    "source_run_sha256": "23BCE48BBF6CEB92BAFE0ECFB912840C5064C56282A64503136549B8AF57FAE9",
+    "technical_failure_count": 0
+  },
+  "dataset": {
+    "age_group_counts": {
+      "Age 30-50": 20,
+      "Over 50": 20,
+      "Under 30": 20
+    },
+    "all_intersection_cells_size_5": true,
+    "application_count": 60,
+    "gender_counts": {
+      "Female": 30,
+      "Male": 30
+    },
+    "intersection_cell_count": 12,
+    "nationality_counts": {
+      "Expat": 30,
+      "Kuwaiti": 30
+    },
+    "sha256": "80077937A4ACFECFA185D8DF98156B5A0E5769AE0DCDF0A7CDE549C19AEF2848"
+  },
+  "fairness_finding": {
+    "baseline": "MATERIAL_AGGREGATE_DISPARITY_REQUIRES_INVESTIGATION",
+    "causal_discrimination_claimed": false,
+    "equalized_odds_status": "NOT_COMPUTABLE_WITH_AVAILABLE_GROUND_TRUTH",
+    "mitigated": "MATERIAL_AGGREGATE_DISPARITY_REQUIRES_INVESTIGATION",
+    "rule": "Approval-rate gaps greater than 10 percentage points require investigation."
+  },
+  "generated_at_utc": "2026-09-03T14:15:18Z",
+  "ibm_api_calls_performed_by_this_task": 0,
+  "mitigated": {
+    "application_count": 60,
+    "evidence_label": "protected_attribute_mitigation_evaluation",
+    "outcome_counts": {
+      "Approve": 22,
+      "Decline": 11,
+      "Refer": 27,
+      "TECHNICAL_FAILURE": 0
+    },
+    "outcome_rates": {
+      "Approve": 0.366667,
+      "Decline": 0.183333,
+      "Refer": 0.45,
+      "TECHNICAL_FAILURE": 0.0
+    },
+    "retry_count": 6,
+    "review_queue_count": 38,
+    "source_run_sha256": "873071D0A06032E1E0203963D8472BA715C881035E764260EA9919818F16E9BD",
+    "technical_failure_count": 0
+  },
+  "mitigation_assessment": {
+    "direct_protected_sensitivity": {
+      "baseline_pair_changes": 1,
+      "classification": "OBSERVED_PAIRED_RECOMMENDATION_VARIATION_WITHOUT_DIRECT_PROTECTED_EXPOSURE",
+      "mitigated_pair_changes": 2
+    },
+    "observed_fairness_effect": "MIXED",
+    "possible_proxy_status": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY",
+    "unsupported_fairness_claims_absent": true
+  },
+  "new_provider_calls": 0,
+  "phase_status": "PASS",
+  "prompt": {
+    "frequency_penalty": 0,
+    "max_completion_tokens": 512,
+    "model_id": "meta-llama/llama-3-3-70b-instruct",
+    "presence_penalty": 0,
+    "response_format": {
+      "type": "json_object"
+    },
+    "sha256": "7022F5EA25E07F3C529B5450DD2031E023F755CE87AAC76C79EF4CDEABCA1614",
+    "temperature": 0,
+    "top_p": 1
+  },
+  "provider_replay": false,
+  "schema_version": "evaluation_validation_summary_v1",
+  "stored_response_revalidation": {
+    "provider_replay": false,
+    "raw_full_run_hashes": {
+      "baseline": "23BCE48BBF6CEB92BAFE0ECFB912840C5064C56282A64503136549B8AF57FAE9",
+      "mitigated": "873071D0A06032E1E0203963D8472BA715C881035E764260EA9919818F16E9BD"
+    },
+    "stored_outputs_used": true
+  }
+}

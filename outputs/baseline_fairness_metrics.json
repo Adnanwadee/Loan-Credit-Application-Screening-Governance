@@ -1,0 +1,729 @@
+{
+  "approval_rate_gaps": [
+    {
+      "absolute_gap_pp": 16.666667,
+      "grouping": "gender",
+      "investigation_triggered": true,
+      "left_group": "Female",
+      "left_rate": 0.26666666666666666,
+      "outcome": "Approve",
+      "right_group": "Male",
+      "right_rate": 0.43333333333333335,
+      "signed_gap_pp": -16.666667
+    },
+    {
+      "absolute_gap_pp": 30.0,
+      "grouping": "nationality",
+      "investigation_triggered": true,
+      "left_group": "Kuwaiti",
+      "left_rate": 0.5,
+      "outcome": "Approve",
+      "right_group": "Expat",
+      "right_rate": 0.2,
+      "signed_gap_pp": 30.0
+    },
+    {
+      "absolute_gap_pp": 20.0,
+      "grouping": "age_group",
+      "investigation_triggered": true,
+      "left_group": "Under 30",
+      "left_rate": 0.2,
+      "outcome": "Approve",
+      "right_group": "Age 30-50",
+      "right_rate": 0.4,
+      "signed_gap_pp": -20.0
+    },
+    {
+      "absolute_gap_pp": 25.0,
+      "grouping": "age_group",
+      "investigation_triggered": true,
+      "left_group": "Under 30",
+      "left_rate": 0.2,
+      "outcome": "Approve",
+      "right_group": "Over 50",
+      "right_rate": 0.45,
+      "signed_gap_pp": -25.0
+    },
+    {
+      "absolute_gap_pp": 5.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Age 30-50",
+      "left_rate": 0.4,
+      "outcome": "Approve",
+      "right_group": "Over 50",
+      "right_rate": 0.45,
+      "signed_gap_pp": -5.0
+    }
+  ],
+  "descriptive_non_approval_gaps": [
+    {
+      "absolute_gap_pp": 20.0,
+      "grouping": "gender",
+      "investigation_triggered": false,
+      "left_group": "Female",
+      "left_rate": 0.4,
+      "outcome": "Refer",
+      "right_group": "Male",
+      "right_rate": 0.2,
+      "signed_gap_pp": 20.0
+    },
+    {
+      "absolute_gap_pp": 3.333333,
+      "grouping": "gender",
+      "investigation_triggered": false,
+      "left_group": "Female",
+      "left_rate": 0.3333333333333333,
+      "outcome": "Decline",
+      "right_group": "Male",
+      "right_rate": 0.36666666666666664,
+      "signed_gap_pp": -3.333333
+    },
+    {
+      "absolute_gap_pp": 6.666667,
+      "grouping": "nationality",
+      "investigation_triggered": false,
+      "left_group": "Kuwaiti",
+      "left_rate": 0.26666666666666666,
+      "outcome": "Refer",
+      "right_group": "Expat",
+      "right_rate": 0.3333333333333333,
+      "signed_gap_pp": -6.666667
+    },
+    {
+      "absolute_gap_pp": 23.333333,
+      "grouping": "nationality",
+      "investigation_triggered": false,
+      "left_group": "Kuwaiti",
+      "left_rate": 0.23333333333333334,
+      "outcome": "Decline",
+      "right_group": "Expat",
+      "right_rate": 0.4666666666666667,
+      "signed_gap_pp": -23.333333
+    },
+    {
+      "absolute_gap_pp": 10.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Under 30",
+      "left_rate": 0.45,
+      "outcome": "Refer",
+      "right_group": "Age 30-50",
+      "right_rate": 0.35,
+      "signed_gap_pp": 10.0
+    },
+    {
+      "absolute_gap_pp": 35.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Under 30",
+      "left_rate": 0.45,
+      "outcome": "Refer",
+      "right_group": "Over 50",
+      "right_rate": 0.1,
+      "signed_gap_pp": 35.0
+    },
+    {
+      "absolute_gap_pp": 25.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Age 30-50",
+      "left_rate": 0.35,
+      "outcome": "Refer",
+      "right_group": "Over 50",
+      "right_rate": 0.1,
+      "signed_gap_pp": 25.0
+    },
+    {
+      "absolute_gap_pp": 10.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Under 30",
+      "left_rate": 0.35,
+      "outcome": "Decline",
+      "right_group": "Age 30-50",
+      "right_rate": 0.25,
+      "signed_gap_pp": 10.0
+    },
+    {
+      "absolute_gap_pp": 10.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Under 30",
+      "left_rate": 0.35,
+      "outcome": "Decline",
+      "right_group": "Over 50",
+      "right_rate": 0.45,
+      "signed_gap_pp": -10.0
+    },
+    {
+      "absolute_gap_pp": 20.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Age 30-50",
+      "left_rate": 0.25,
+      "outcome": "Decline",
+      "right_group": "Over 50",
+      "right_rate": 0.45,
+      "signed_gap_pp": -20.0
+    }
+  ],
+  "equalized_odds_status": "NOT_COMPUTABLE_WITH_AVAILABLE_GROUND_TRUTH",
+  "intersectional_metrics": {
+    "all_cells_expected_n": true,
+    "cell_count": 12,
+    "cells": [
+      {
+        "age_group": "Age 30-50",
+        "counts": {
+          "Approve": 1,
+          "Decline": 1,
+          "Refer": 3,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Female",
+        "n": 5,
+        "nationality": "Expat",
+        "rates": {
+          "Approve": 0.2,
+          "Decline": 0.2,
+          "Refer": 0.6,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Over 50",
+        "counts": {
+          "Approve": 0,
+          "Decline": 3,
+          "Refer": 2,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Female",
+        "n": 5,
+        "nationality": "Expat",
+        "rates": {
+          "Approve": 0.0,
+          "Decline": 0.6,
+          "Refer": 0.4,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Under 30",
+        "counts": {
+          "Approve": 1,
+          "Decline": 2,
+          "Refer": 2,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Female",
+        "n": 5,
+        "nationality": "Expat",
+        "rates": {
+          "Approve": 0.2,
+          "Decline": 0.4,
+          "Refer": 0.4,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Age 30-50",
+        "counts": {
+          "Approve": 2,
+          "Decline": 1,
+          "Refer": 2,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Female",
+        "n": 5,
+        "nationality": "Kuwaiti",
+        "rates": {
+          "Approve": 0.4,
+          "Decline": 0.2,
+          "Refer": 0.4,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Over 50",
+        "counts": {
+          "Approve": 3,
+          "Decline": 2,
+          "Refer": 0,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Female",
+        "n": 5,
+        "nationality": "Kuwaiti",
+        "rates": {
+          "Approve": 0.6,
+          "Decline": 0.4,
+          "Refer": 0.0,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Under 30",
+        "counts": {
+          "Approve": 1,
+          "Decline": 1,
+          "Refer": 3,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Female",
+        "n": 5,
+        "nationality": "Kuwaiti",
+        "rates": {
+          "Approve": 0.2,
+          "Decline": 0.2,
+          "Refer": 0.6,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Age 30-50",
+        "counts": {
+          "Approve": 2,
+          "Decline": 2,
+          "Refer": 1,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Male",
+        "n": 5,
+        "nationality": "Expat",
+        "rates": {
+          "Approve": 0.4,
+          "Decline": 0.4,
+          "Refer": 0.2,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Over 50",
+        "counts": {
+          "Approve": 2,
+          "Decline": 3,
+          "Refer": 0,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Male",
+        "n": 5,
+        "nationality": "Expat",
+        "rates": {
+          "Approve": 0.4,
+          "Decline": 0.6,
+          "Refer": 0.0,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Under 30",
+        "counts": {
+          "Approve": 0,
+          "Decline": 3,
+          "Refer": 2,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Male",
+        "n": 5,
+        "nationality": "Expat",
+        "rates": {
+          "Approve": 0.0,
+          "Decline": 0.6,
+          "Refer": 0.4,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Age 30-50",
+        "counts": {
+          "Approve": 3,
+          "Decline": 1,
+          "Refer": 1,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Male",
+        "n": 5,
+        "nationality": "Kuwaiti",
+        "rates": {
+          "Approve": 0.6,
+          "Decline": 0.2,
+          "Refer": 0.2,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Over 50",
+        "counts": {
+          "Approve": 4,
+          "Decline": 1,
+          "Refer": 0,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Male",
+        "n": 5,
+        "nationality": "Kuwaiti",
+        "rates": {
+          "Approve": 0.8,
+          "Decline": 0.2,
+          "Refer": 0.0,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      {
+        "age_group": "Under 30",
+        "counts": {
+          "Approve": 2,
+          "Decline": 1,
+          "Refer": 2,
+          "TECHNICAL_FAILURE": 0
+        },
+        "gender": "Male",
+        "n": 5,
+        "nationality": "Kuwaiti",
+        "rates": {
+          "Approve": 0.4,
+          "Decline": 0.2,
+          "Refer": 0.4,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      }
+    ],
+    "expected_cell_n": 5
+  },
+  "investigation_triggers": [
+    {
+      "absolute_gap_pp": 16.666667,
+      "grouping": "gender",
+      "investigation_triggered": true,
+      "left_group": "Female",
+      "left_rate": 0.26666666666666666,
+      "outcome": "Approve",
+      "right_group": "Male",
+      "right_rate": 0.43333333333333335,
+      "signed_gap_pp": -16.666667
+    },
+    {
+      "absolute_gap_pp": 30.0,
+      "grouping": "nationality",
+      "investigation_triggered": true,
+      "left_group": "Kuwaiti",
+      "left_rate": 0.5,
+      "outcome": "Approve",
+      "right_group": "Expat",
+      "right_rate": 0.2,
+      "signed_gap_pp": 30.0
+    },
+    {
+      "absolute_gap_pp": 20.0,
+      "grouping": "age_group",
+      "investigation_triggered": true,
+      "left_group": "Under 30",
+      "left_rate": 0.2,
+      "outcome": "Approve",
+      "right_group": "Age 30-50",
+      "right_rate": 0.4,
+      "signed_gap_pp": -20.0
+    },
+    {
+      "absolute_gap_pp": 25.0,
+      "grouping": "age_group",
+      "investigation_triggered": true,
+      "left_group": "Under 30",
+      "left_rate": 0.2,
+      "outcome": "Approve",
+      "right_group": "Over 50",
+      "right_rate": 0.45,
+      "signed_gap_pp": -25.0
+    }
+  ],
+  "metrics": {
+    "age_group": {
+      "Age 30-50": {
+        "counts": {
+          "Approve": 8,
+          "Decline": 5,
+          "Refer": 7,
+          "TECHNICAL_FAILURE": 0
+        },
+        "n": 20,
+        "rates": {
+          "Approve": 0.4,
+          "Decline": 0.25,
+          "Refer": 0.35,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      "Over 50": {
+        "counts": {
+          "Approve": 9,
+          "Decline": 9,
+          "Refer": 2,
+          "TECHNICAL_FAILURE": 0
+        },
+        "n": 20,
+        "rates": {
+          "Approve": 0.45,
+          "Decline": 0.45,
+          "Refer": 0.1,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      "Under 30": {
+        "counts": {
+          "Approve": 4,
+          "Decline": 7,
+          "Refer": 9,
+          "TECHNICAL_FAILURE": 0
+        },
+        "n": 20,
+        "rates": {
+          "Approve": 0.2,
+          "Decline": 0.35,
+          "Refer": 0.45,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      }
+    },
+    "gender": {
+      "Female": {
+        "counts": {
+          "Approve": 8,
+          "Decline": 10,
+          "Refer": 12,
+          "TECHNICAL_FAILURE": 0
+        },
+        "n": 30,
+        "rates": {
+          "Approve": 0.26666666666666666,
+          "Decline": 0.3333333333333333,
+          "Refer": 0.4,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      "Male": {
+        "counts": {
+          "Approve": 13,
+          "Decline": 11,
+          "Refer": 6,
+          "TECHNICAL_FAILURE": 0
+        },
+        "n": 30,
+        "rates": {
+          "Approve": 0.43333333333333335,
+          "Decline": 0.36666666666666664,
+          "Refer": 0.2,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      }
+    },
+    "nationality": {
+      "Expat": {
+        "counts": {
+          "Approve": 6,
+          "Decline": 14,
+          "Refer": 10,
+          "TECHNICAL_FAILURE": 0
+        },
+        "n": 30,
+        "rates": {
+          "Approve": 0.2,
+          "Decline": 0.4666666666666667,
+          "Refer": 0.3333333333333333,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      },
+      "Kuwaiti": {
+        "counts": {
+          "Approve": 15,
+          "Decline": 7,
+          "Refer": 8,
+          "TECHNICAL_FAILURE": 0
+        },
+        "n": 30,
+        "rates": {
+          "Approve": 0.5,
+          "Decline": 0.23333333333333334,
+          "Refer": 0.26666666666666666,
+          "TECHNICAL_FAILURE": 0.0
+        }
+      }
+    }
+  },
+  "outcome_rate_gaps": [
+    {
+      "absolute_gap_pp": 16.666667,
+      "grouping": "gender",
+      "investigation_triggered": true,
+      "left_group": "Female",
+      "left_rate": 0.26666666666666666,
+      "outcome": "Approve",
+      "right_group": "Male",
+      "right_rate": 0.43333333333333335,
+      "signed_gap_pp": -16.666667
+    },
+    {
+      "absolute_gap_pp": 20.0,
+      "grouping": "gender",
+      "investigation_triggered": false,
+      "left_group": "Female",
+      "left_rate": 0.4,
+      "outcome": "Refer",
+      "right_group": "Male",
+      "right_rate": 0.2,
+      "signed_gap_pp": 20.0
+    },
+    {
+      "absolute_gap_pp": 3.333333,
+      "grouping": "gender",
+      "investigation_triggered": false,
+      "left_group": "Female",
+      "left_rate": 0.3333333333333333,
+      "outcome": "Decline",
+      "right_group": "Male",
+      "right_rate": 0.36666666666666664,
+      "signed_gap_pp": -3.333333
+    },
+    {
+      "absolute_gap_pp": 30.0,
+      "grouping": "nationality",
+      "investigation_triggered": true,
+      "left_group": "Kuwaiti",
+      "left_rate": 0.5,
+      "outcome": "Approve",
+      "right_group": "Expat",
+      "right_rate": 0.2,
+      "signed_gap_pp": 30.0
+    },
+    {
+      "absolute_gap_pp": 6.666667,
+      "grouping": "nationality",
+      "investigation_triggered": false,
+      "left_group": "Kuwaiti",
+      "left_rate": 0.26666666666666666,
+      "outcome": "Refer",
+      "right_group": "Expat",
+      "right_rate": 0.3333333333333333,
+      "signed_gap_pp": -6.666667
+    },
+    {
+      "absolute_gap_pp": 23.333333,
+      "grouping": "nationality",
+      "investigation_triggered": false,
+      "left_group": "Kuwaiti",
+      "left_rate": 0.23333333333333334,
+      "outcome": "Decline",
+      "right_group": "Expat",
+      "right_rate": 0.4666666666666667,
+      "signed_gap_pp": -23.333333
+    },
+    {
+      "absolute_gap_pp": 20.0,
+      "grouping": "age_group",
+      "investigation_triggered": true,
+      "left_group": "Under 30",
+      "left_rate": 0.2,
+      "outcome": "Approve",
+      "right_group": "Age 30-50",
+      "right_rate": 0.4,
+      "signed_gap_pp": -20.0
+    },
+    {
+      "absolute_gap_pp": 25.0,
+      "grouping": "age_group",
+      "investigation_triggered": true,
+      "left_group": "Under 30",
+      "left_rate": 0.2,
+      "outcome": "Approve",
+      "right_group": "Over 50",
+      "right_rate": 0.45,
+      "signed_gap_pp": -25.0
+    },
+    {
+      "absolute_gap_pp": 5.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Age 30-50",
+      "left_rate": 0.4,
+      "outcome": "Approve",
+      "right_group": "Over 50",
+      "right_rate": 0.45,
+      "signed_gap_pp": -5.0
+    },
+    {
+      "absolute_gap_pp": 10.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Under 30",
+      "left_rate": 0.45,
+      "outcome": "Refer",
+      "right_group": "Age 30-50",
+      "right_rate": 0.35,
+      "signed_gap_pp": 10.0
+    },
+    {
+      "absolute_gap_pp": 35.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Under 30",
+      "left_rate": 0.45,
+      "outcome": "Refer",
+      "right_group": "Over 50",
+      "right_rate": 0.1,
+      "signed_gap_pp": 35.0
+    },
+    {
+      "absolute_gap_pp": 25.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Age 30-50",
+      "left_rate": 0.35,
+      "outcome": "Refer",
+      "right_group": "Over 50",
+      "right_rate": 0.1,
+      "signed_gap_pp": 25.0
+    },
+    {
+      "absolute_gap_pp": 10.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Under 30",
+      "left_rate": 0.35,
+      "outcome": "Decline",
+      "right_group": "Age 30-50",
+      "right_rate": 0.25,
+      "signed_gap_pp": 10.0
+    },
+    {
+      "absolute_gap_pp": 10.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Under 30",
+      "left_rate": 0.35,
+      "outcome": "Decline",
+      "right_group": "Over 50",
+      "right_rate": 0.45,
+      "signed_gap_pp": -10.0
+    },
+    {
+      "absolute_gap_pp": 20.0,
+      "grouping": "age_group",
+      "investigation_triggered": false,
+      "left_group": "Age 30-50",
+      "left_rate": 0.25,
+      "outcome": "Decline",
+      "right_group": "Over 50",
+      "right_rate": 0.45,
+      "signed_gap_pp": -20.0
+    }
+  ],
+  "population": {
+    "n": 60,
+    "outcome_counts": {
+      "Approve": 21,
+      "Decline": 21,
+      "Refer": 18
+    }
+  }
+}

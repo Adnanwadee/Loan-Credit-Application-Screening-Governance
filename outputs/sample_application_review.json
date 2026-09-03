@@ -1,0 +1,192 @@
+{
+  "expected_lean_status": "REFERENCE_ONLY_NOT_GROUND_TRUTH",
+  "generated_at_utc": "2026-09-03T03:46:17.360757Z",
+  "rows": [
+    {
+      "applicant_id": "A001",
+      "baseline_confidence": 0.9,
+      "baseline_key_factor_fields": [
+        "credit_score",
+        "monthly_cash_surplus_before_new_loan",
+        "employment_status"
+      ],
+      "baseline_recommendation": "Approve",
+      "baseline_reference_match": true,
+      "baseline_review_required": false,
+      "expected_lean_reference": "Approve",
+      "expected_lean_status": "REFERENCE_ONLY_NOT_GROUND_TRUTH",
+      "mitigated_confidence": 0.9,
+      "mitigated_key_factor_fields": [
+        "credit_score",
+        "monthly_cash_surplus_before_new_loan",
+        "employment_status"
+      ],
+      "mitigated_recommendation": "Approve",
+      "mitigated_reference_match": true,
+      "mitigated_review_required": false
+    },
+    {
+      "applicant_id": "A002",
+      "baseline_confidence": 0.8,
+      "baseline_key_factor_fields": [
+        "previous_defaults",
+        "existing_debt_service_ratio",
+        "monthly_cash_surplus_before_new_loan"
+      ],
+      "baseline_recommendation": "Decline",
+      "baseline_reference_match": false,
+      "baseline_review_required": true,
+      "expected_lean_reference": "Refer",
+      "expected_lean_status": "REFERENCE_ONLY_NOT_GROUND_TRUTH",
+      "mitigated_confidence": 0.8,
+      "mitigated_key_factor_fields": [
+        "previous_defaults",
+        "existing_debt_service_ratio",
+        "requested_loan_to_annual_income"
+      ],
+      "mitigated_recommendation": "Decline",
+      "mitigated_reference_match": false,
+      "mitigated_review_required": true
+    },
+    {
+      "applicant_id": "A003",
+      "baseline_confidence": 0.9,
+      "baseline_key_factor_fields": [
+        "credit_score",
+        "monthly_cash_surplus_before_new_loan",
+        "previous_defaults"
+      ],
+      "baseline_recommendation": "Approve",
+      "baseline_reference_match": true,
+      "baseline_review_required": false,
+      "expected_lean_reference": "Approve",
+      "expected_lean_status": "REFERENCE_ONLY_NOT_GROUND_TRUTH",
+      "mitigated_confidence": 0.9,
+      "mitigated_key_factor_fields": [
+        "credit_score",
+        "monthly_cash_surplus_before_new_loan",
+        "employment_status"
+      ],
+      "mitigated_recommendation": "Approve",
+      "mitigated_reference_match": true,
+      "mitigated_review_required": false
+    },
+    {
+      "applicant_id": "A004",
+      "baseline_confidence": 0.6,
+      "baseline_key_factor_fields": [
+        "years_employed",
+        "monthly_cash_surplus_before_new_loan",
+        "requested_loan_to_annual_income"
+      ],
+      "baseline_recommendation": "Refer",
+      "baseline_reference_match": true,
+      "baseline_review_required": true,
+      "expected_lean_reference": "Refer",
+      "expected_lean_status": "REFERENCE_ONLY_NOT_GROUND_TRUTH",
+      "mitigated_confidence": 0.6,
+      "mitigated_key_factor_fields": [
+        "monthly_cash_surplus_before_new_loan",
+        "requested_loan_to_annual_income",
+        "credit_score"
+      ],
+      "mitigated_recommendation": "Refer",
+      "mitigated_reference_match": true,
+      "mitigated_review_required": true
+    },
+    {
+      "applicant_id": "A005",
+      "baseline_confidence": 0.8,
+      "baseline_key_factor_fields": [
+        "previous_defaults",
+        "existing_debt_service_ratio",
+        "monthly_cash_surplus_before_new_loan"
+      ],
+      "baseline_recommendation": "Decline",
+      "baseline_reference_match": true,
+      "baseline_review_required": true,
+      "expected_lean_reference": "Decline",
+      "expected_lean_status": "REFERENCE_ONLY_NOT_GROUND_TRUTH",
+      "mitigated_confidence": 0.8,
+      "mitigated_key_factor_fields": [
+        "previous_defaults",
+        "existing_debt_service_ratio",
+        "monthly_cash_surplus_before_new_loan"
+      ],
+      "mitigated_recommendation": "Decline",
+      "mitigated_reference_match": true,
+      "mitigated_review_required": true
+    },
+    {
+      "applicant_id": "A006",
+      "baseline_confidence": 0.85,
+      "baseline_key_factor_fields": [
+        "credit_score",
+        "monthly_cash_surplus_before_new_loan",
+        "existing_debt_service_ratio"
+      ],
+      "baseline_recommendation": "Approve",
+      "baseline_reference_match": true,
+      "baseline_review_required": false,
+      "expected_lean_reference": "Approve",
+      "expected_lean_status": "REFERENCE_ONLY_NOT_GROUND_TRUTH",
+      "mitigated_confidence": 0.85,
+      "mitigated_key_factor_fields": [
+        "credit_score",
+        "monthly_cash_surplus_before_new_loan",
+        "existing_debt_service_ratio"
+      ],
+      "mitigated_recommendation": "Approve",
+      "mitigated_reference_match": true,
+      "mitigated_review_required": false
+    },
+    {
+      "applicant_id": "A007",
+      "baseline_confidence": 0.6,
+      "baseline_key_factor_fields": [
+        "requested_loan_to_annual_income",
+        "monthly_cash_surplus_before_new_loan",
+        "existing_debt_service_ratio"
+      ],
+      "baseline_recommendation": "Refer",
+      "baseline_reference_match": true,
+      "baseline_review_required": true,
+      "expected_lean_reference": "Refer",
+      "expected_lean_status": "REFERENCE_ONLY_NOT_GROUND_TRUTH",
+      "mitigated_confidence": 0.8,
+      "mitigated_key_factor_fields": [
+        "credit_score",
+        "monthly_cash_surplus_before_new_loan",
+        "employment_status"
+      ],
+      "mitigated_recommendation": "Approve",
+      "mitigated_reference_match": false,
+      "mitigated_review_required": false
+    },
+    {
+      "applicant_id": "A008",
+      "baseline_confidence": 0.9,
+      "baseline_key_factor_fields": [
+        "employment_status",
+        "monthly_cash_surplus_before_new_loan",
+        "previous_defaults"
+      ],
+      "baseline_recommendation": "Decline",
+      "baseline_reference_match": true,
+      "baseline_review_required": true,
+      "expected_lean_reference": "Decline",
+      "expected_lean_status": "REFERENCE_ONLY_NOT_GROUND_TRUTH",
+      "mitigated_confidence": 0.9,
+      "mitigated_key_factor_fields": [
+        "employment_status",
+        "monthly_cash_surplus_before_new_loan",
+        "previous_defaults"
+      ],
+      "mitigated_recommendation": "Decline",
+      "mitigated_reference_match": true,
+      "mitigated_review_required": true
+    }
+  ],
+  "schema_version": "sample_application_review_v1",
+  "scope": "A001-A008 reference review"
+}

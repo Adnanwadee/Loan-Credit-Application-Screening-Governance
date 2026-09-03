@@ -1,0 +1,3767 @@
+{
+  "baseline": {
+    "causal_discrimination_claimed": false,
+    "composition_analysis_for_triggers": {
+      "group_composition": {
+        "age_group": {
+          "Age 30-50": {
+            "categorical": {
+              "employer_type": {
+                "Government": 5,
+                "Oil & Gas": 6,
+                "Private sector": 6,
+                "Self-employed": 3
+              },
+              "employment_status": {
+                "Full-time employed": 17,
+                "Self-employed": 3
+              },
+              "loan_purpose": {
+                "Debt consolidation": 2,
+                "Education": 3,
+                "Family expenses": 3,
+                "Home purchase": 2,
+                "Home renovation": 5,
+                "Investment property": 1,
+                "Small business": 3,
+                "Vehicle purchase": 1
+              }
+            },
+            "n": 20,
+            "numeric": {
+              "credit_score": {
+                "count": 20,
+                "max": 745,
+                "mean": 691.75,
+                "median": 685.0,
+                "min": 630
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 20,
+                "max": 1100,
+                "mean": 315.0,
+                "median": 205.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 20,
+                "max": 0.375,
+                "mean": 0.1763354909939255,
+                "median": 0.16630434782608694,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 20,
+                "max": 0.5428571428571428,
+                "mean": 0.36273227572822575,
+                "median": 0.34523809523809523,
+                "min": 0.23809523809523808
+              },
+              "loan_amount_requested_kwd": {
+                "count": 20,
+                "max": 50000,
+                "mean": 19575.0,
+                "median": 16000.0,
+                "min": 9500
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 20,
+                "max": 1600,
+                "mean": 762.0,
+                "median": 700.0,
+                "min": 350
+              },
+              "monthly_expenses_kwd": {
+                "count": 20,
+                "max": 950,
+                "mean": 598.0,
+                "median": 520.0,
+                "min": 320
+              },
+              "monthly_net_salary_kwd": {
+                "count": 20,
+                "max": 3200,
+                "mean": 1675.0,
+                "median": 1575.0,
+                "min": 1150
+              },
+              "previous_defaults": {
+                "count": 20,
+                "max": 2,
+                "mean": 0.45,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 20,
+                "max": 1.4285714285714286,
+                "mean": 0.9400502749533082,
+                "median": 0.8666666666666667,
+                "min": 0.625
+              },
+              "years_employed": {
+                "count": 20,
+                "max": 20,
+                "mean": 8.75,
+                "median": 8.0,
+                "min": 3
+              }
+            }
+          },
+          "Over 50": {
+            "categorical": {
+              "employer_type": {
+                "Government": 6,
+                "N/A": 2,
+                "Oil & Gas": 2,
+                "Private sector": 7,
+                "Self-employed": 3
+              },
+              "employment_status": {
+                "Full-time employed": 15,
+                "Self-employed": 3,
+                "Unemployed": 2
+              },
+              "loan_purpose": {
+                "Debt consolidation": 2,
+                "Education": 2,
+                "Family expenses": 2,
+                "Home purchase": 3,
+                "Home renovation": 1,
+                "Investment property": 2,
+                "Medical expenses": 5,
+                "Small business": 1,
+                "Vehicle purchase": 2
+              }
+            },
+            "n": 20,
+            "numeric": {
+              "credit_score": {
+                "count": 20,
+                "max": 780,
+                "mean": 684.25,
+                "median": 695.0,
+                "min": 580
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 20,
+                "max": 500,
+                "mean": 229.5,
+                "median": 260.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 18,
+                "max": 0.31666666666666665,
+                "mean": 0.15561351752733035,
+                "median": 0.17333333333333334,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 18,
+                "max": 0.5454545454545454,
+                "mean": 0.3697137873817894,
+                "median": 0.35584415584415585,
+                "min": 0.25
+              },
+              "loan_amount_requested_kwd": {
+                "count": 20,
+                "max": 35000,
+                "mean": 14350.0,
+                "median": 11500.0,
+                "min": 3000
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 20,
+                "max": 1450,
+                "mean": 614.0,
+                "median": 570.0,
+                "min": -750
+              },
+              "monthly_expenses_kwd": {
+                "count": 20,
+                "max": 900,
+                "mean": 551.5,
+                "median": 540.0,
+                "min": 280
+              },
+              "monthly_net_salary_kwd": {
+                "count": 20,
+                "max": 2400,
+                "mean": 1395.0,
+                "median": 1425.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 20,
+                "max": 3,
+                "mean": 0.75,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 18,
+                "max": 1.2152777777777777,
+                "mean": 0.7908391507567055,
+                "median": 0.68506006006006,
+                "min": 0.44871794871794873
+              },
+              "years_employed": {
+                "count": 20,
+                "max": 32,
+                "mean": 18.2,
+                "median": 19.0,
+                "min": 0
+              }
+            }
+          },
+          "Under 30": {
+            "categorical": {
+              "employer_type": {
+                "Government": 2,
+                "N/A": 1,
+                "Oil & Gas": 1,
+                "Private sector": 12,
+                "Self-employed": 4
+              },
+              "employment_status": {
+                "Full-time employed": 15,
+                "Self-employed": 4,
+                "Unemployed": 1
+              },
+              "loan_purpose": {
+                "Debt consolidation": 3,
+                "Education": 5,
+                "Home renovation": 2,
+                "Small business": 4,
+                "Vehicle purchase": 6
+              }
+            },
+            "n": 20,
+            "numeric": {
+              "credit_score": {
+                "count": 20,
+                "max": 705,
+                "mean": 645.75,
+                "median": 662.5,
+                "min": 510
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 20,
+                "max": 780,
+                "mean": 175.5,
+                "median": 100.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 19,
+                "max": 0.4727272727272727,
+                "mean": 0.14748205114007987,
+                "median": 0.0967741935483871,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 19,
+                "max": 0.4888888888888889,
+                "mean": 0.3898143154478082,
+                "median": 0.3974358974358974,
+                "min": 0.27692307692307694
+              },
+              "loan_amount_requested_kwd": {
+                "count": 20,
+                "max": 28000,
+                "mean": 8975.0,
+                "median": 8250.0,
+                "min": 2500
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 20,
+                "max": 840,
+                "mean": 425.0,
+                "median": 465.0,
+                "min": -550
+              },
+              "monthly_expenses_kwd": {
+                "count": 20,
+                "max": 720,
+                "mean": 395.0,
+                "median": 360.0,
+                "min": 220
+              },
+              "monthly_net_salary_kwd": {
+                "count": 20,
+                "max": 1750,
+                "mean": 995.5,
+                "median": 980.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 20,
+                "max": 3,
+                "mean": 0.6,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 19,
+                "max": 1.4141414141414141,
+                "mean": 0.6877609468201,
+                "median": 0.6818181818181818,
+                "min": 0.33602150537634407
+              },
+              "years_employed": {
+                "count": 20,
+                "max": 6,
+                "mean": 2.6125,
+                "median": 2.75,
+                "min": 0
+              }
+            }
+          }
+        },
+        "gender": {
+          "Female": {
+            "categorical": {
+              "employer_type": {
+                "Government": 6,
+                "N/A": 1,
+                "Oil & Gas": 3,
+                "Private sector": 13,
+                "Self-employed": 7
+              },
+              "employment_status": {
+                "Full-time employed": 22,
+                "Self-employed": 7,
+                "Unemployed": 1
+              },
+              "loan_purpose": {
+                "Debt consolidation": 2,
+                "Education": 6,
+                "Family expenses": 2,
+                "Home purchase": 1,
+                "Home renovation": 5,
+                "Investment property": 2,
+                "Medical expenses": 4,
+                "Small business": 6,
+                "Vehicle purchase": 2
+              }
+            },
+            "n": 30,
+            "numeric": {
+              "credit_score": {
+                "count": 30,
+                "max": 760,
+                "mean": 673.3333333333334,
+                "median": 682.5,
+                "min": 560
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 30,
+                "max": 1100,
+                "mean": 202.33333333333334,
+                "median": 150.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 29,
+                "max": 0.35454545454545455,
+                "mean": 0.14328786117768735,
+                "median": 0.10714285714285714,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 29,
+                "max": 0.53125,
+                "mean": 0.3745169799115342,
+                "median": 0.36923076923076925,
+                "min": 0.23809523809523808
+              },
+              "loan_amount_requested_kwd": {
+                "count": 30,
+                "max": 50000,
+                "mean": 13000.0,
+                "median": 11500.0,
+                "min": 2500
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 30,
+                "max": 1600,
+                "mean": 628.3333333333334,
+                "median": 545.0,
+                "min": -400
+              },
+              "monthly_expenses_kwd": {
+                "count": 30,
+                "max": 900,
+                "mean": 489.6666666666667,
+                "median": 470.0,
+                "min": 220
+              },
+              "monthly_net_salary_kwd": {
+                "count": 30,
+                "max": 3200,
+                "mean": 1320.3333333333333,
+                "median": 1275.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 30,
+                "max": 3,
+                "mean": 0.6,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 29,
+                "max": 1.3020833333333333,
+                "mean": 0.7592610266845212,
+                "median": 0.7227891156462585,
+                "min": 0.33602150537634407
+              },
+              "years_employed": {
+                "count": 30,
+                "max": 28,
+                "mean": 9.716666666666667,
+                "median": 8.5,
+                "min": 0
+              }
+            }
+          },
+          "Male": {
+            "categorical": {
+              "employer_type": {
+                "Government": 7,
+                "N/A": 2,
+                "Oil & Gas": 6,
+                "Private sector": 12,
+                "Self-employed": 3
+              },
+              "employment_status": {
+                "Full-time employed": 25,
+                "Self-employed": 3,
+                "Unemployed": 2
+              },
+              "loan_purpose": {
+                "Debt consolidation": 5,
+                "Education": 4,
+                "Family expenses": 3,
+                "Home purchase": 4,
+                "Home renovation": 3,
+                "Investment property": 1,
+                "Medical expenses": 1,
+                "Small business": 2,
+                "Vehicle purchase": 7
+              }
+            },
+            "n": 30,
+            "numeric": {
+              "credit_score": {
+                "count": 30,
+                "max": 780,
+                "mean": 674.5,
+                "median": 675.0,
+                "min": 510
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 30,
+                "max": 900,
+                "mean": 277.6666666666667,
+                "median": 220.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 28,
+                "max": 0.4727272727272727,
+                "mean": 0.17766300474568,
+                "median": 0.1826086956521739,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 28,
+                "max": 0.5454545454545454,
+                "mean": 0.3733919022682352,
+                "median": 0.3736231884057971,
+                "min": 0.25
+              },
+              "loan_amount_requested_kwd": {
+                "count": 30,
+                "max": 40000,
+                "mean": 15600.0,
+                "median": 12500.0,
+                "min": 4000
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 30,
+                "max": 1450,
+                "mean": 572.3333333333334,
+                "median": 575.0,
+                "min": -750
+              },
+              "monthly_expenses_kwd": {
+                "count": 30,
+                "max": 950,
+                "mean": 540.0,
+                "median": 510.0,
+                "min": 250
+              },
+              "monthly_net_salary_kwd": {
+                "count": 30,
+                "max": 2400,
+                "mean": 1390.0,
+                "median": 1400.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 30,
+                "max": 3,
+                "mean": 0.6,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 28,
+                "max": 1.4285714285714286,
+                "mean": 0.8601785153006306,
+                "median": 0.8055555555555556,
+                "min": 0.4411764705882353
+              },
+              "years_employed": {
+                "count": 30,
+                "max": 32,
+                "mean": 9.991666666666667,
+                "median": 6.5,
+                "min": 0
+              }
+            }
+          }
+        },
+        "nationality": {
+          "Expat": {
+            "categorical": {
+              "employer_type": {
+                "Government": 1,
+                "N/A": 2,
+                "Oil & Gas": 6,
+                "Private sector": 16,
+                "Self-employed": 5
+              },
+              "employment_status": {
+                "Full-time employed": 23,
+                "Self-employed": 5,
+                "Unemployed": 2
+              },
+              "loan_purpose": {
+                "Debt consolidation": 3,
+                "Education": 5,
+                "Family expenses": 3,
+                "Home purchase": 2,
+                "Home renovation": 4,
+                "Investment property": 1,
+                "Medical expenses": 2,
+                "Small business": 4,
+                "Vehicle purchase": 6
+              }
+            },
+            "n": 30,
+            "numeric": {
+              "credit_score": {
+                "count": 30,
+                "max": 745,
+                "mean": 658.5,
+                "median": 665.0,
+                "min": 510
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 30,
+                "max": 520,
+                "mean": 211.66666666666666,
+                "median": 205.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 28,
+                "max": 0.29714285714285715,
+                "mean": 0.15827058225558108,
+                "median": 0.1826388888888889,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 28,
+                "max": 0.5454545454545454,
+                "mean": 0.3833274258874644,
+                "median": 0.39316239316239315,
+                "min": 0.23809523809523808
+              },
+              "loan_amount_requested_kwd": {
+                "count": 30,
+                "max": 28000,
+                "mean": 11900.0,
+                "median": 10500.0,
+                "min": 2500
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 30,
+                "max": 1600,
+                "mean": 523.6666666666666,
+                "median": 505.0,
+                "min": -750
+              },
+              "monthly_expenses_kwd": {
+                "count": 30,
+                "max": 900,
+                "mean": 482.3333333333333,
+                "median": 440.0,
+                "min": 220
+              },
+              "monthly_net_salary_kwd": {
+                "count": 30,
+                "max": 2200,
+                "mean": 1217.6666666666667,
+                "median": 1250.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 30,
+                "max": 3,
+                "mean": 0.6333333333333333,
+                "median": 0.5,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 28,
+                "max": 1.1458333333333333,
+                "mean": 0.7517566109009814,
+                "median": 0.7086167800453514,
+                "min": 0.33602150537634407
+              },
+              "years_employed": {
+                "count": 30,
+                "max": 25,
+                "mean": 7.783333333333333,
+                "median": 5.5,
+                "min": 0
+              }
+            }
+          },
+          "Kuwaiti": {
+            "categorical": {
+              "employer_type": {
+                "Government": 12,
+                "N/A": 1,
+                "Oil & Gas": 3,
+                "Private sector": 9,
+                "Self-employed": 5
+              },
+              "employment_status": {
+                "Full-time employed": 24,
+                "Self-employed": 5,
+                "Unemployed": 1
+              },
+              "loan_purpose": {
+                "Debt consolidation": 4,
+                "Education": 5,
+                "Family expenses": 2,
+                "Home purchase": 3,
+                "Home renovation": 4,
+                "Investment property": 2,
+                "Medical expenses": 3,
+                "Small business": 4,
+                "Vehicle purchase": 3
+              }
+            },
+            "n": 30,
+            "numeric": {
+              "credit_score": {
+                "count": 30,
+                "max": 780,
+                "mean": 689.3333333333334,
+                "median": 692.5,
+                "min": 580
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 30,
+                "max": 1100,
+                "mean": 268.3333333333333,
+                "median": 190.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 29,
+                "max": 0.4727272727272727,
+                "mean": 0.16201157944398978,
+                "median": 0.14583333333333334,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 29,
+                "max": 0.5428571428571428,
+                "mean": 0.3649240605550371,
+                "median": 0.36923076923076925,
+                "min": 0.25
+              },
+              "loan_amount_requested_kwd": {
+                "count": 30,
+                "max": 50000,
+                "mean": 16700.0,
+                "median": 14000.0,
+                "min": 3000
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 30,
+                "max": 1450,
+                "mean": 677.0,
+                "median": 610.0,
+                "min": -400
+              },
+              "monthly_expenses_kwd": {
+                "count": 30,
+                "max": 950,
+                "mean": 547.3333333333334,
+                "median": 510.0,
+                "min": 260
+              },
+              "monthly_net_salary_kwd": {
+                "count": 30,
+                "max": 3200,
+                "mean": 1492.6666666666667,
+                "median": 1500.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 30,
+                "max": 3,
+                "mean": 0.5666666666666667,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 29,
+                "max": 1.4285714285714286,
+                "mean": 0.8639442447255615,
+                "median": 0.7777777777777778,
+                "min": 0.3888888888888889
+              },
+              "years_employed": {
+                "count": 30,
+                "max": 32,
+                "mean": 11.925,
+                "median": 8.5,
+                "min": 0
+              }
+            }
+          }
+        }
+      },
+      "trigger_composition_notes": [
+        {
+          "categorical_comparison": [
+            {
+              "distributions_equal": false,
+              "field": "employment_status",
+              "left_distribution": {
+                "Full-time employed": 22,
+                "Self-employed": 7,
+                "Unemployed": 1
+              },
+              "right_distribution": {
+                "Full-time employed": 25,
+                "Self-employed": 3,
+                "Unemployed": 2
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "employer_type",
+              "left_distribution": {
+                "Government": 6,
+                "N/A": 1,
+                "Oil & Gas": 3,
+                "Private sector": 13,
+                "Self-employed": 7
+              },
+              "right_distribution": {
+                "Government": 7,
+                "N/A": 2,
+                "Oil & Gas": 6,
+                "Private sector": 12,
+                "Self-employed": 3
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "loan_purpose",
+              "left_distribution": {
+                "Debt consolidation": 2,
+                "Education": 6,
+                "Family expenses": 2,
+                "Home purchase": 1,
+                "Home renovation": 5,
+                "Investment property": 2,
+                "Medical expenses": 4,
+                "Small business": 6,
+                "Vehicle purchase": 2
+              },
+              "right_distribution": {
+                "Debt consolidation": 5,
+                "Education": 4,
+                "Family expenses": 3,
+                "Home purchase": 4,
+                "Home renovation": 3,
+                "Investment property": 1,
+                "Medical expenses": 1,
+                "Small business": 2,
+                "Vehicle purchase": 7
+              }
+            }
+          ],
+          "interpretation": "Observed composition difference only; plausible compositional contributor where patterns differ, not causal proof and not a fairness conclusion by itself.",
+          "numeric_comparison": [
+            {
+              "absolute_mean_delta": 2600.0,
+              "field": "loan_amount_requested_kwd",
+              "left_mean": 13000.0,
+              "right_mean": 15600.0
+            },
+            {
+              "absolute_mean_delta": 75.33333333333334,
+              "field": "existing_debt_monthly_kwd",
+              "left_mean": 202.33333333333334,
+              "right_mean": 277.6666666666667
+            },
+            {
+              "absolute_mean_delta": 69.66666666666674,
+              "field": "monthly_net_salary_kwd",
+              "left_mean": 1320.3333333333333,
+              "right_mean": 1390.0
+            },
+            {
+              "absolute_mean_delta": 56.0,
+              "field": "monthly_cash_surplus_before_new_loan",
+              "left_mean": 628.3333333333334,
+              "right_mean": 572.3333333333334
+            },
+            {
+              "absolute_mean_delta": 50.333333333333314,
+              "field": "monthly_expenses_kwd",
+              "left_mean": 489.6666666666667,
+              "right_mean": 540.0
+            },
+            {
+              "absolute_mean_delta": 1.1666666666666288,
+              "field": "credit_score",
+              "left_mean": 673.3333333333334,
+              "right_mean": 674.5
+            },
+            {
+              "absolute_mean_delta": 0.27500000000000036,
+              "field": "years_employed",
+              "left_mean": 9.716666666666667,
+              "right_mean": 9.991666666666667
+            },
+            {
+              "absolute_mean_delta": 0.10091748861610939,
+              "field": "requested_loan_to_annual_income",
+              "left_mean": 0.7592610266845212,
+              "right_mean": 0.8601785153006306
+            },
+            {
+              "absolute_mean_delta": 0.03437514356799265,
+              "field": "existing_debt_service_ratio",
+              "left_mean": 0.14328786117768735,
+              "right_mean": 0.17766300474568
+            },
+            {
+              "absolute_mean_delta": 0.0011250776432989995,
+              "field": "expense_to_income_ratio",
+              "left_mean": 0.3745169799115342,
+              "right_mean": 0.3733919022682352
+            },
+            {
+              "absolute_mean_delta": 0.0,
+              "field": "previous_defaults",
+              "left_mean": 0.6,
+              "right_mean": 0.6
+            }
+          ],
+          "trigger": {
+            "absolute_gap_pp": 16.666667,
+            "grouping": "gender",
+            "investigation_triggered": true,
+            "left_group": "Female",
+            "left_rate": 0.26666666666666666,
+            "outcome": "Approve",
+            "right_group": "Male",
+            "right_rate": 0.43333333333333335,
+            "signed_gap_pp": -16.666667
+          }
+        },
+        {
+          "categorical_comparison": [
+            {
+              "distributions_equal": false,
+              "field": "employment_status",
+              "left_distribution": {
+                "Full-time employed": 24,
+                "Self-employed": 5,
+                "Unemployed": 1
+              },
+              "right_distribution": {
+                "Full-time employed": 23,
+                "Self-employed": 5,
+                "Unemployed": 2
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "employer_type",
+              "left_distribution": {
+                "Government": 12,
+                "N/A": 1,
+                "Oil & Gas": 3,
+                "Private sector": 9,
+                "Self-employed": 5
+              },
+              "right_distribution": {
+                "Government": 1,
+                "N/A": 2,
+                "Oil & Gas": 6,
+                "Private sector": 16,
+                "Self-employed": 5
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "loan_purpose",
+              "left_distribution": {
+                "Debt consolidation": 4,
+                "Education": 5,
+                "Family expenses": 2,
+                "Home purchase": 3,
+                "Home renovation": 4,
+                "Investment property": 2,
+                "Medical expenses": 3,
+                "Small business": 4,
+                "Vehicle purchase": 3
+              },
+              "right_distribution": {
+                "Debt consolidation": 3,
+                "Education": 5,
+                "Family expenses": 3,
+                "Home purchase": 2,
+                "Home renovation": 4,
+                "Investment property": 1,
+                "Medical expenses": 2,
+                "Small business": 4,
+                "Vehicle purchase": 6
+              }
+            }
+          ],
+          "interpretation": "Observed composition difference only; plausible compositional contributor where patterns differ, not causal proof and not a fairness conclusion by itself.",
+          "numeric_comparison": [
+            {
+              "absolute_mean_delta": 4800.0,
+              "field": "loan_amount_requested_kwd",
+              "left_mean": 16700.0,
+              "right_mean": 11900.0
+            },
+            {
+              "absolute_mean_delta": 275.0,
+              "field": "monthly_net_salary_kwd",
+              "left_mean": 1492.6666666666667,
+              "right_mean": 1217.6666666666667
+            },
+            {
+              "absolute_mean_delta": 153.33333333333337,
+              "field": "monthly_cash_surplus_before_new_loan",
+              "left_mean": 677.0,
+              "right_mean": 523.6666666666666
+            },
+            {
+              "absolute_mean_delta": 65.00000000000006,
+              "field": "monthly_expenses_kwd",
+              "left_mean": 547.3333333333334,
+              "right_mean": 482.3333333333333
+            },
+            {
+              "absolute_mean_delta": 56.66666666666666,
+              "field": "existing_debt_monthly_kwd",
+              "left_mean": 268.3333333333333,
+              "right_mean": 211.66666666666666
+            },
+            {
+              "absolute_mean_delta": 30.83333333333337,
+              "field": "credit_score",
+              "left_mean": 689.3333333333334,
+              "right_mean": 658.5
+            },
+            {
+              "absolute_mean_delta": 4.1416666666666675,
+              "field": "years_employed",
+              "left_mean": 11.925,
+              "right_mean": 7.783333333333333
+            },
+            {
+              "absolute_mean_delta": 0.11218763382458008,
+              "field": "requested_loan_to_annual_income",
+              "left_mean": 0.8639442447255615,
+              "right_mean": 0.7517566109009814
+            },
+            {
+              "absolute_mean_delta": 0.06666666666666665,
+              "field": "previous_defaults",
+              "left_mean": 0.5666666666666667,
+              "right_mean": 0.6333333333333333
+            },
+            {
+              "absolute_mean_delta": 0.018403365332427257,
+              "field": "expense_to_income_ratio",
+              "left_mean": 0.3649240605550371,
+              "right_mean": 0.3833274258874644
+            },
+            {
+              "absolute_mean_delta": 0.003740997188408701,
+              "field": "existing_debt_service_ratio",
+              "left_mean": 0.16201157944398978,
+              "right_mean": 0.15827058225558108
+            }
+          ],
+          "trigger": {
+            "absolute_gap_pp": 30.0,
+            "grouping": "nationality",
+            "investigation_triggered": true,
+            "left_group": "Kuwaiti",
+            "left_rate": 0.5,
+            "outcome": "Approve",
+            "right_group": "Expat",
+            "right_rate": 0.2,
+            "signed_gap_pp": 30.0
+          }
+        },
+        {
+          "categorical_comparison": [
+            {
+              "distributions_equal": false,
+              "field": "employment_status",
+              "left_distribution": {
+                "Full-time employed": 15,
+                "Self-employed": 4,
+                "Unemployed": 1
+              },
+              "right_distribution": {
+                "Full-time employed": 17,
+                "Self-employed": 3
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "employer_type",
+              "left_distribution": {
+                "Government": 2,
+                "N/A": 1,
+                "Oil & Gas": 1,
+                "Private sector": 12,
+                "Self-employed": 4
+              },
+              "right_distribution": {
+                "Government": 5,
+                "Oil & Gas": 6,
+                "Private sector": 6,
+                "Self-employed": 3
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "loan_purpose",
+              "left_distribution": {
+                "Debt consolidation": 3,
+                "Education": 5,
+                "Home renovation": 2,
+                "Small business": 4,
+                "Vehicle purchase": 6
+              },
+              "right_distribution": {
+                "Debt consolidation": 2,
+                "Education": 3,
+                "Family expenses": 3,
+                "Home purchase": 2,
+                "Home renovation": 5,
+                "Investment property": 1,
+                "Small business": 3,
+                "Vehicle purchase": 1
+              }
+            }
+          ],
+          "interpretation": "Observed composition difference only; plausible compositional contributor where patterns differ, not causal proof and not a fairness conclusion by itself.",
+          "numeric_comparison": [
+            {
+              "absolute_mean_delta": 10600.0,
+              "field": "loan_amount_requested_kwd",
+              "left_mean": 8975.0,
+              "right_mean": 19575.0
+            },
+            {
+              "absolute_mean_delta": 679.5,
+              "field": "monthly_net_salary_kwd",
+              "left_mean": 995.5,
+              "right_mean": 1675.0
+            },
+            {
+              "absolute_mean_delta": 337.0,
+              "field": "monthly_cash_surplus_before_new_loan",
+              "left_mean": 425.0,
+              "right_mean": 762.0
+            },
+            {
+              "absolute_mean_delta": 203.0,
+              "field": "monthly_expenses_kwd",
+              "left_mean": 395.0,
+              "right_mean": 598.0
+            },
+            {
+              "absolute_mean_delta": 139.5,
+              "field": "existing_debt_monthly_kwd",
+              "left_mean": 175.5,
+              "right_mean": 315.0
+            },
+            {
+              "absolute_mean_delta": 46.0,
+              "field": "credit_score",
+              "left_mean": 645.75,
+              "right_mean": 691.75
+            },
+            {
+              "absolute_mean_delta": 6.1375,
+              "field": "years_employed",
+              "left_mean": 2.6125,
+              "right_mean": 8.75
+            },
+            {
+              "absolute_mean_delta": 0.25228932813320815,
+              "field": "requested_loan_to_annual_income",
+              "left_mean": 0.6877609468201,
+              "right_mean": 0.9400502749533082
+            },
+            {
+              "absolute_mean_delta": 0.14999999999999997,
+              "field": "previous_defaults",
+              "left_mean": 0.6,
+              "right_mean": 0.45
+            },
+            {
+              "absolute_mean_delta": 0.02885343985384564,
+              "field": "existing_debt_service_ratio",
+              "left_mean": 0.14748205114007987,
+              "right_mean": 0.1763354909939255
+            },
+            {
+              "absolute_mean_delta": 0.02708203971958245,
+              "field": "expense_to_income_ratio",
+              "left_mean": 0.3898143154478082,
+              "right_mean": 0.36273227572822575
+            }
+          ],
+          "trigger": {
+            "absolute_gap_pp": 20.0,
+            "grouping": "age_group",
+            "investigation_triggered": true,
+            "left_group": "Under 30",
+            "left_rate": 0.2,
+            "outcome": "Approve",
+            "right_group": "Age 30-50",
+            "right_rate": 0.4,
+            "signed_gap_pp": -20.0
+          }
+        },
+        {
+          "categorical_comparison": [
+            {
+              "distributions_equal": false,
+              "field": "employment_status",
+              "left_distribution": {
+                "Full-time employed": 15,
+                "Self-employed": 4,
+                "Unemployed": 1
+              },
+              "right_distribution": {
+                "Full-time employed": 15,
+                "Self-employed": 3,
+                "Unemployed": 2
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "employer_type",
+              "left_distribution": {
+                "Government": 2,
+                "N/A": 1,
+                "Oil & Gas": 1,
+                "Private sector": 12,
+                "Self-employed": 4
+              },
+              "right_distribution": {
+                "Government": 6,
+                "N/A": 2,
+                "Oil & Gas": 2,
+                "Private sector": 7,
+                "Self-employed": 3
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "loan_purpose",
+              "left_distribution": {
+                "Debt consolidation": 3,
+                "Education": 5,
+                "Home renovation": 2,
+                "Small business": 4,
+                "Vehicle purchase": 6
+              },
+              "right_distribution": {
+                "Debt consolidation": 2,
+                "Education": 2,
+                "Family expenses": 2,
+                "Home purchase": 3,
+                "Home renovation": 1,
+                "Investment property": 2,
+                "Medical expenses": 5,
+                "Small business": 1,
+                "Vehicle purchase": 2
+              }
+            }
+          ],
+          "interpretation": "Observed composition difference only; plausible compositional contributor where patterns differ, not causal proof and not a fairness conclusion by itself.",
+          "numeric_comparison": [
+            {
+              "absolute_mean_delta": 5375.0,
+              "field": "loan_amount_requested_kwd",
+              "left_mean": 8975.0,
+              "right_mean": 14350.0
+            },
+            {
+              "absolute_mean_delta": 399.5,
+              "field": "monthly_net_salary_kwd",
+              "left_mean": 995.5,
+              "right_mean": 1395.0
+            },
+            {
+              "absolute_mean_delta": 189.0,
+              "field": "monthly_cash_surplus_before_new_loan",
+              "left_mean": 425.0,
+              "right_mean": 614.0
+            },
+            {
+              "absolute_mean_delta": 156.5,
+              "field": "monthly_expenses_kwd",
+              "left_mean": 395.0,
+              "right_mean": 551.5
+            },
+            {
+              "absolute_mean_delta": 54.0,
+              "field": "existing_debt_monthly_kwd",
+              "left_mean": 175.5,
+              "right_mean": 229.5
+            },
+            {
+              "absolute_mean_delta": 38.5,
+              "field": "credit_score",
+              "left_mean": 645.75,
+              "right_mean": 684.25
+            },
+            {
+              "absolute_mean_delta": 15.587499999999999,
+              "field": "years_employed",
+              "left_mean": 2.6125,
+              "right_mean": 18.2
+            },
+            {
+              "absolute_mean_delta": 0.15000000000000002,
+              "field": "previous_defaults",
+              "left_mean": 0.6,
+              "right_mean": 0.75
+            },
+            {
+              "absolute_mean_delta": 0.1030782039366055,
+              "field": "requested_loan_to_annual_income",
+              "left_mean": 0.6877609468201,
+              "right_mean": 0.7908391507567055
+            },
+            {
+              "absolute_mean_delta": 0.020100528066018808,
+              "field": "expense_to_income_ratio",
+              "left_mean": 0.3898143154478082,
+              "right_mean": 0.3697137873817894
+            },
+            {
+              "absolute_mean_delta": 0.008131466387250486,
+              "field": "existing_debt_service_ratio",
+              "left_mean": 0.14748205114007987,
+              "right_mean": 0.15561351752733035
+            }
+          ],
+          "trigger": {
+            "absolute_gap_pp": 25.0,
+            "grouping": "age_group",
+            "investigation_triggered": true,
+            "left_group": "Under 30",
+            "left_rate": 0.2,
+            "outcome": "Approve",
+            "right_group": "Over 50",
+            "right_rate": 0.45,
+            "signed_gap_pp": -25.0
+          }
+        }
+      ]
+    },
+    "finding": "MATERIAL_AGGREGATE_DISPARITY_REQUIRES_INVESTIGATION",
+    "investigation_triggers": [
+      {
+        "absolute_gap_pp": 16.666667,
+        "grouping": "gender",
+        "investigation_triggered": true,
+        "left_group": "Female",
+        "left_rate": 0.26666666666666666,
+        "outcome": "Approve",
+        "right_group": "Male",
+        "right_rate": 0.43333333333333335,
+        "signed_gap_pp": -16.666667
+      },
+      {
+        "absolute_gap_pp": 30.0,
+        "grouping": "nationality",
+        "investigation_triggered": true,
+        "left_group": "Kuwaiti",
+        "left_rate": 0.5,
+        "outcome": "Approve",
+        "right_group": "Expat",
+        "right_rate": 0.2,
+        "signed_gap_pp": 30.0
+      },
+      {
+        "absolute_gap_pp": 20.0,
+        "grouping": "age_group",
+        "investigation_triggered": true,
+        "left_group": "Under 30",
+        "left_rate": 0.2,
+        "outcome": "Approve",
+        "right_group": "Age 30-50",
+        "right_rate": 0.4,
+        "signed_gap_pp": -20.0
+      },
+      {
+        "absolute_gap_pp": 25.0,
+        "grouping": "age_group",
+        "investigation_triggered": true,
+        "left_group": "Under 30",
+        "left_rate": 0.2,
+        "outcome": "Approve",
+        "right_group": "Over 50",
+        "right_rate": 0.45,
+        "signed_gap_pp": -25.0
+      }
+    ],
+    "possible_proxy_status": {
+      "observed_group_composition_differences": [
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 19575.0,
+          "min_group": "Under 30",
+          "min_mean": 8975.0,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 10600.0
+        },
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 16700.0,
+          "min_group": "Expat",
+          "min_mean": 11900.0,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 4800.0
+        },
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 15600.0,
+          "min_group": "Female",
+          "min_mean": 13000.0,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 2600.0
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 1675.0,
+          "min_group": "Under 30",
+          "min_mean": 995.5,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 679.5
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 762.0,
+          "min_group": "Under 30",
+          "min_mean": 425.0,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 337.0
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 1492.6666666666667,
+          "min_group": "Expat",
+          "min_mean": 1217.6666666666667,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 275.0
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 598.0,
+          "min_group": "Under 30",
+          "min_mean": 395.0,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 203.0
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 677.0,
+          "min_group": "Expat",
+          "min_mean": 523.6666666666666,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 153.33333333333337
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 315.0,
+          "min_group": "Under 30",
+          "min_mean": 175.5,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 139.5
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 277.6666666666667,
+          "min_group": "Female",
+          "min_mean": 202.33333333333334,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 75.33333333333334
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 1390.0,
+          "min_group": "Female",
+          "min_mean": 1320.3333333333333,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 69.66666666666674
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 547.3333333333334,
+          "min_group": "Expat",
+          "min_mean": 482.3333333333333,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 65.00000000000006
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 268.3333333333333,
+          "min_group": "Expat",
+          "min_mean": 211.66666666666666,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 56.66666666666666
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Female",
+          "max_mean": 628.3333333333334,
+          "min_group": "Male",
+          "min_mean": 572.3333333333334,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 56.0
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 540.0,
+          "min_group": "Female",
+          "min_mean": 489.6666666666667,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 50.333333333333314
+        },
+        {
+          "field": "credit_score",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 691.75,
+          "min_group": "Under 30",
+          "min_mean": 645.75,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 46.0
+        },
+        {
+          "field": "credit_score",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 689.3333333333334,
+          "min_group": "Expat",
+          "min_mean": 658.5,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 30.83333333333337
+        },
+        {
+          "field": "years_employed",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Over 50",
+          "max_mean": 18.2,
+          "min_group": "Under 30",
+          "min_mean": 2.6125,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 15.587499999999999
+        },
+        {
+          "field": "years_employed",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 11.925,
+          "min_group": "Expat",
+          "min_mean": 7.783333333333333,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 4.1416666666666675
+        },
+        {
+          "field": "credit_score",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 674.5,
+          "min_group": "Female",
+          "min_mean": 673.3333333333334,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 1.1666666666666288
+        },
+        {
+          "field": "previous_defaults",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Over 50",
+          "max_mean": 0.75,
+          "min_group": "Age 30-50",
+          "min_mean": 0.45,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.3
+        },
+        {
+          "field": "years_employed",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 9.991666666666667,
+          "min_group": "Female",
+          "min_mean": 9.716666666666667,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.27500000000000036
+        },
+        {
+          "field": "requested_loan_to_annual_income",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 0.9400502749533082,
+          "min_group": "Under 30",
+          "min_mean": 0.6877609468201,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.25228932813320815
+        },
+        {
+          "field": "requested_loan_to_annual_income",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 0.8639442447255615,
+          "min_group": "Expat",
+          "min_mean": 0.7517566109009814,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.11218763382458008
+        },
+        {
+          "field": "requested_loan_to_annual_income",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 0.8601785153006306,
+          "min_group": "Female",
+          "min_mean": 0.7592610266845212,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.10091748861610939
+        },
+        {
+          "field": "previous_defaults",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Expat",
+          "max_mean": 0.6333333333333333,
+          "min_group": "Kuwaiti",
+          "min_mean": 0.5666666666666667,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.06666666666666665
+        },
+        {
+          "field": "existing_debt_service_ratio",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 0.17766300474568,
+          "min_group": "Female",
+          "min_mean": 0.14328786117768735,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.03437514356799265
+        },
+        {
+          "field": "existing_debt_service_ratio",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 0.1763354909939255,
+          "min_group": "Under 30",
+          "min_mean": 0.14748205114007987,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.02885343985384564
+        },
+        {
+          "field": "expense_to_income_ratio",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Under 30",
+          "max_mean": 0.3898143154478082,
+          "min_group": "Age 30-50",
+          "min_mean": 0.36273227572822575,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.02708203971958245
+        },
+        {
+          "field": "expense_to_income_ratio",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Expat",
+          "max_mean": 0.3833274258874644,
+          "min_group": "Kuwaiti",
+          "min_mean": 0.3649240605550371,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.018403365332427257
+        }
+      ],
+      "possible_proxy_candidates_for_investigation": [
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "age_group",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Age 30-50",
+          "max_mean": 19575.0,
+          "min_group": "Under 30",
+          "min_mean": 8975.0,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 10600.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "nationality",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Kuwaiti",
+          "max_mean": 16700.0,
+          "min_group": "Expat",
+          "min_mean": 11900.0,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 4800.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "gender",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Male",
+          "max_mean": 15600.0,
+          "min_group": "Female",
+          "min_mean": 13000.0,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 2600.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "age_group",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Age 30-50",
+          "max_mean": 1675.0,
+          "min_group": "Under 30",
+          "min_mean": 995.5,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 679.5,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "age_group",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Age 30-50",
+          "max_mean": 762.0,
+          "min_group": "Under 30",
+          "min_mean": 425.0,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 337.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "nationality",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Kuwaiti",
+          "max_mean": 1492.6666666666667,
+          "min_group": "Expat",
+          "min_mean": 1217.6666666666667,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 275.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "age_group",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Age 30-50",
+          "max_mean": 598.0,
+          "min_group": "Under 30",
+          "min_mean": 395.0,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 203.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "nationality",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Kuwaiti",
+          "max_mean": 677.0,
+          "min_group": "Expat",
+          "min_mean": 523.6666666666666,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 153.33333333333337,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "age_group",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Age 30-50",
+          "max_mean": 315.0,
+          "min_group": "Under 30",
+          "min_mean": 175.5,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 139.5,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "gender",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Male",
+          "max_mean": 277.6666666666667,
+          "min_group": "Female",
+          "min_mean": 202.33333333333334,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 75.33333333333334,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "gender",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Male",
+          "max_mean": 1390.0,
+          "min_group": "Female",
+          "min_mean": 1320.3333333333333,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 69.66666666666674,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "nationality",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Kuwaiti",
+          "max_mean": 547.3333333333334,
+          "min_group": "Expat",
+          "min_mean": 482.3333333333333,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 65.00000000000006,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "nationality",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Kuwaiti",
+          "max_mean": 268.3333333333333,
+          "min_group": "Expat",
+          "min_mean": 211.66666666666666,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 56.66666666666666,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "gender",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Female",
+          "max_mean": 628.3333333333334,
+          "min_group": "Male",
+          "min_mean": 572.3333333333334,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 56.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "gender",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Male",
+          "max_mean": 540.0,
+          "min_group": "Female",
+          "min_mean": 489.6666666666667,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 50.333333333333314,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        }
+      ],
+      "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+    }
+  },
+  "diagnostic_rule": "Approval-rate gaps greater than 10 percentage points require investigation. Exactly 10 percentage points is not a trigger.",
+  "equalized_odds_status": "NOT_COMPUTABLE_WITH_AVAILABLE_GROUND_TRUTH",
+  "generated_at_utc": "2026-09-03T03:46:17.358968Z",
+  "mitigated": {
+    "causal_discrimination_claimed": false,
+    "composition_analysis_for_triggers": {
+      "group_composition": {
+        "age_group": {
+          "Age 30-50": {
+            "categorical": {
+              "employer_type": {
+                "Government": 5,
+                "Oil & Gas": 6,
+                "Private sector": 6,
+                "Self-employed": 3
+              },
+              "employment_status": {
+                "Full-time employed": 17,
+                "Self-employed": 3
+              },
+              "loan_purpose": {
+                "Debt consolidation": 2,
+                "Education": 3,
+                "Family expenses": 3,
+                "Home purchase": 2,
+                "Home renovation": 5,
+                "Investment property": 1,
+                "Small business": 3,
+                "Vehicle purchase": 1
+              }
+            },
+            "n": 20,
+            "numeric": {
+              "credit_score": {
+                "count": 20,
+                "max": 745,
+                "mean": 691.75,
+                "median": 685.0,
+                "min": 630
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 20,
+                "max": 1100,
+                "mean": 315.0,
+                "median": 205.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 20,
+                "max": 0.375,
+                "mean": 0.1763354909939255,
+                "median": 0.16630434782608694,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 20,
+                "max": 0.5428571428571428,
+                "mean": 0.36273227572822575,
+                "median": 0.34523809523809523,
+                "min": 0.23809523809523808
+              },
+              "loan_amount_requested_kwd": {
+                "count": 20,
+                "max": 50000,
+                "mean": 19575.0,
+                "median": 16000.0,
+                "min": 9500
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 20,
+                "max": 1600,
+                "mean": 762.0,
+                "median": 700.0,
+                "min": 350
+              },
+              "monthly_expenses_kwd": {
+                "count": 20,
+                "max": 950,
+                "mean": 598.0,
+                "median": 520.0,
+                "min": 320
+              },
+              "monthly_net_salary_kwd": {
+                "count": 20,
+                "max": 3200,
+                "mean": 1675.0,
+                "median": 1575.0,
+                "min": 1150
+              },
+              "previous_defaults": {
+                "count": 20,
+                "max": 2,
+                "mean": 0.45,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 20,
+                "max": 1.4285714285714286,
+                "mean": 0.9400502749533082,
+                "median": 0.8666666666666667,
+                "min": 0.625
+              },
+              "years_employed": {
+                "count": 20,
+                "max": 20,
+                "mean": 8.75,
+                "median": 8.0,
+                "min": 3
+              }
+            }
+          },
+          "Over 50": {
+            "categorical": {
+              "employer_type": {
+                "Government": 6,
+                "N/A": 2,
+                "Oil & Gas": 2,
+                "Private sector": 7,
+                "Self-employed": 3
+              },
+              "employment_status": {
+                "Full-time employed": 15,
+                "Self-employed": 3,
+                "Unemployed": 2
+              },
+              "loan_purpose": {
+                "Debt consolidation": 2,
+                "Education": 2,
+                "Family expenses": 2,
+                "Home purchase": 3,
+                "Home renovation": 1,
+                "Investment property": 2,
+                "Medical expenses": 5,
+                "Small business": 1,
+                "Vehicle purchase": 2
+              }
+            },
+            "n": 20,
+            "numeric": {
+              "credit_score": {
+                "count": 20,
+                "max": 780,
+                "mean": 684.25,
+                "median": 695.0,
+                "min": 580
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 20,
+                "max": 500,
+                "mean": 229.5,
+                "median": 260.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 18,
+                "max": 0.31666666666666665,
+                "mean": 0.15561351752733035,
+                "median": 0.17333333333333334,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 18,
+                "max": 0.5454545454545454,
+                "mean": 0.3697137873817894,
+                "median": 0.35584415584415585,
+                "min": 0.25
+              },
+              "loan_amount_requested_kwd": {
+                "count": 20,
+                "max": 35000,
+                "mean": 14350.0,
+                "median": 11500.0,
+                "min": 3000
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 20,
+                "max": 1450,
+                "mean": 614.0,
+                "median": 570.0,
+                "min": -750
+              },
+              "monthly_expenses_kwd": {
+                "count": 20,
+                "max": 900,
+                "mean": 551.5,
+                "median": 540.0,
+                "min": 280
+              },
+              "monthly_net_salary_kwd": {
+                "count": 20,
+                "max": 2400,
+                "mean": 1395.0,
+                "median": 1425.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 20,
+                "max": 3,
+                "mean": 0.75,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 18,
+                "max": 1.2152777777777777,
+                "mean": 0.7908391507567055,
+                "median": 0.68506006006006,
+                "min": 0.44871794871794873
+              },
+              "years_employed": {
+                "count": 20,
+                "max": 32,
+                "mean": 18.2,
+                "median": 19.0,
+                "min": 0
+              }
+            }
+          },
+          "Under 30": {
+            "categorical": {
+              "employer_type": {
+                "Government": 2,
+                "N/A": 1,
+                "Oil & Gas": 1,
+                "Private sector": 12,
+                "Self-employed": 4
+              },
+              "employment_status": {
+                "Full-time employed": 15,
+                "Self-employed": 4,
+                "Unemployed": 1
+              },
+              "loan_purpose": {
+                "Debt consolidation": 3,
+                "Education": 5,
+                "Home renovation": 2,
+                "Small business": 4,
+                "Vehicle purchase": 6
+              }
+            },
+            "n": 20,
+            "numeric": {
+              "credit_score": {
+                "count": 20,
+                "max": 705,
+                "mean": 645.75,
+                "median": 662.5,
+                "min": 510
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 20,
+                "max": 780,
+                "mean": 175.5,
+                "median": 100.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 19,
+                "max": 0.4727272727272727,
+                "mean": 0.14748205114007987,
+                "median": 0.0967741935483871,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 19,
+                "max": 0.4888888888888889,
+                "mean": 0.3898143154478082,
+                "median": 0.3974358974358974,
+                "min": 0.27692307692307694
+              },
+              "loan_amount_requested_kwd": {
+                "count": 20,
+                "max": 28000,
+                "mean": 8975.0,
+                "median": 8250.0,
+                "min": 2500
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 20,
+                "max": 840,
+                "mean": 425.0,
+                "median": 465.0,
+                "min": -550
+              },
+              "monthly_expenses_kwd": {
+                "count": 20,
+                "max": 720,
+                "mean": 395.0,
+                "median": 360.0,
+                "min": 220
+              },
+              "monthly_net_salary_kwd": {
+                "count": 20,
+                "max": 1750,
+                "mean": 995.5,
+                "median": 980.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 20,
+                "max": 3,
+                "mean": 0.6,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 19,
+                "max": 1.4141414141414141,
+                "mean": 0.6877609468201,
+                "median": 0.6818181818181818,
+                "min": 0.33602150537634407
+              },
+              "years_employed": {
+                "count": 20,
+                "max": 6,
+                "mean": 2.6125,
+                "median": 2.75,
+                "min": 0
+              }
+            }
+          }
+        },
+        "gender": {
+          "Female": {
+            "categorical": {
+              "employer_type": {
+                "Government": 6,
+                "N/A": 1,
+                "Oil & Gas": 3,
+                "Private sector": 13,
+                "Self-employed": 7
+              },
+              "employment_status": {
+                "Full-time employed": 22,
+                "Self-employed": 7,
+                "Unemployed": 1
+              },
+              "loan_purpose": {
+                "Debt consolidation": 2,
+                "Education": 6,
+                "Family expenses": 2,
+                "Home purchase": 1,
+                "Home renovation": 5,
+                "Investment property": 2,
+                "Medical expenses": 4,
+                "Small business": 6,
+                "Vehicle purchase": 2
+              }
+            },
+            "n": 30,
+            "numeric": {
+              "credit_score": {
+                "count": 30,
+                "max": 760,
+                "mean": 673.3333333333334,
+                "median": 682.5,
+                "min": 560
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 30,
+                "max": 1100,
+                "mean": 202.33333333333334,
+                "median": 150.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 29,
+                "max": 0.35454545454545455,
+                "mean": 0.14328786117768735,
+                "median": 0.10714285714285714,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 29,
+                "max": 0.53125,
+                "mean": 0.3745169799115342,
+                "median": 0.36923076923076925,
+                "min": 0.23809523809523808
+              },
+              "loan_amount_requested_kwd": {
+                "count": 30,
+                "max": 50000,
+                "mean": 13000.0,
+                "median": 11500.0,
+                "min": 2500
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 30,
+                "max": 1600,
+                "mean": 628.3333333333334,
+                "median": 545.0,
+                "min": -400
+              },
+              "monthly_expenses_kwd": {
+                "count": 30,
+                "max": 900,
+                "mean": 489.6666666666667,
+                "median": 470.0,
+                "min": 220
+              },
+              "monthly_net_salary_kwd": {
+                "count": 30,
+                "max": 3200,
+                "mean": 1320.3333333333333,
+                "median": 1275.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 30,
+                "max": 3,
+                "mean": 0.6,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 29,
+                "max": 1.3020833333333333,
+                "mean": 0.7592610266845212,
+                "median": 0.7227891156462585,
+                "min": 0.33602150537634407
+              },
+              "years_employed": {
+                "count": 30,
+                "max": 28,
+                "mean": 9.716666666666667,
+                "median": 8.5,
+                "min": 0
+              }
+            }
+          },
+          "Male": {
+            "categorical": {
+              "employer_type": {
+                "Government": 7,
+                "N/A": 2,
+                "Oil & Gas": 6,
+                "Private sector": 12,
+                "Self-employed": 3
+              },
+              "employment_status": {
+                "Full-time employed": 25,
+                "Self-employed": 3,
+                "Unemployed": 2
+              },
+              "loan_purpose": {
+                "Debt consolidation": 5,
+                "Education": 4,
+                "Family expenses": 3,
+                "Home purchase": 4,
+                "Home renovation": 3,
+                "Investment property": 1,
+                "Medical expenses": 1,
+                "Small business": 2,
+                "Vehicle purchase": 7
+              }
+            },
+            "n": 30,
+            "numeric": {
+              "credit_score": {
+                "count": 30,
+                "max": 780,
+                "mean": 674.5,
+                "median": 675.0,
+                "min": 510
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 30,
+                "max": 900,
+                "mean": 277.6666666666667,
+                "median": 220.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 28,
+                "max": 0.4727272727272727,
+                "mean": 0.17766300474568,
+                "median": 0.1826086956521739,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 28,
+                "max": 0.5454545454545454,
+                "mean": 0.3733919022682352,
+                "median": 0.3736231884057971,
+                "min": 0.25
+              },
+              "loan_amount_requested_kwd": {
+                "count": 30,
+                "max": 40000,
+                "mean": 15600.0,
+                "median": 12500.0,
+                "min": 4000
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 30,
+                "max": 1450,
+                "mean": 572.3333333333334,
+                "median": 575.0,
+                "min": -750
+              },
+              "monthly_expenses_kwd": {
+                "count": 30,
+                "max": 950,
+                "mean": 540.0,
+                "median": 510.0,
+                "min": 250
+              },
+              "monthly_net_salary_kwd": {
+                "count": 30,
+                "max": 2400,
+                "mean": 1390.0,
+                "median": 1400.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 30,
+                "max": 3,
+                "mean": 0.6,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 28,
+                "max": 1.4285714285714286,
+                "mean": 0.8601785153006306,
+                "median": 0.8055555555555556,
+                "min": 0.4411764705882353
+              },
+              "years_employed": {
+                "count": 30,
+                "max": 32,
+                "mean": 9.991666666666667,
+                "median": 6.5,
+                "min": 0
+              }
+            }
+          }
+        },
+        "nationality": {
+          "Expat": {
+            "categorical": {
+              "employer_type": {
+                "Government": 1,
+                "N/A": 2,
+                "Oil & Gas": 6,
+                "Private sector": 16,
+                "Self-employed": 5
+              },
+              "employment_status": {
+                "Full-time employed": 23,
+                "Self-employed": 5,
+                "Unemployed": 2
+              },
+              "loan_purpose": {
+                "Debt consolidation": 3,
+                "Education": 5,
+                "Family expenses": 3,
+                "Home purchase": 2,
+                "Home renovation": 4,
+                "Investment property": 1,
+                "Medical expenses": 2,
+                "Small business": 4,
+                "Vehicle purchase": 6
+              }
+            },
+            "n": 30,
+            "numeric": {
+              "credit_score": {
+                "count": 30,
+                "max": 745,
+                "mean": 658.5,
+                "median": 665.0,
+                "min": 510
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 30,
+                "max": 520,
+                "mean": 211.66666666666666,
+                "median": 205.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 28,
+                "max": 0.29714285714285715,
+                "mean": 0.15827058225558108,
+                "median": 0.1826388888888889,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 28,
+                "max": 0.5454545454545454,
+                "mean": 0.3833274258874644,
+                "median": 0.39316239316239315,
+                "min": 0.23809523809523808
+              },
+              "loan_amount_requested_kwd": {
+                "count": 30,
+                "max": 28000,
+                "mean": 11900.0,
+                "median": 10500.0,
+                "min": 2500
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 30,
+                "max": 1600,
+                "mean": 523.6666666666666,
+                "median": 505.0,
+                "min": -750
+              },
+              "monthly_expenses_kwd": {
+                "count": 30,
+                "max": 900,
+                "mean": 482.3333333333333,
+                "median": 440.0,
+                "min": 220
+              },
+              "monthly_net_salary_kwd": {
+                "count": 30,
+                "max": 2200,
+                "mean": 1217.6666666666667,
+                "median": 1250.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 30,
+                "max": 3,
+                "mean": 0.6333333333333333,
+                "median": 0.5,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 28,
+                "max": 1.1458333333333333,
+                "mean": 0.7517566109009814,
+                "median": 0.7086167800453514,
+                "min": 0.33602150537634407
+              },
+              "years_employed": {
+                "count": 30,
+                "max": 25,
+                "mean": 7.783333333333333,
+                "median": 5.5,
+                "min": 0
+              }
+            }
+          },
+          "Kuwaiti": {
+            "categorical": {
+              "employer_type": {
+                "Government": 12,
+                "N/A": 1,
+                "Oil & Gas": 3,
+                "Private sector": 9,
+                "Self-employed": 5
+              },
+              "employment_status": {
+                "Full-time employed": 24,
+                "Self-employed": 5,
+                "Unemployed": 1
+              },
+              "loan_purpose": {
+                "Debt consolidation": 4,
+                "Education": 5,
+                "Family expenses": 2,
+                "Home purchase": 3,
+                "Home renovation": 4,
+                "Investment property": 2,
+                "Medical expenses": 3,
+                "Small business": 4,
+                "Vehicle purchase": 3
+              }
+            },
+            "n": 30,
+            "numeric": {
+              "credit_score": {
+                "count": 30,
+                "max": 780,
+                "mean": 689.3333333333334,
+                "median": 692.5,
+                "min": 580
+              },
+              "existing_debt_monthly_kwd": {
+                "count": 30,
+                "max": 1100,
+                "mean": 268.3333333333333,
+                "median": 190.0,
+                "min": 0
+              },
+              "existing_debt_service_ratio": {
+                "count": 29,
+                "max": 0.4727272727272727,
+                "mean": 0.16201157944398978,
+                "median": 0.14583333333333334,
+                "min": 0.0
+              },
+              "expense_to_income_ratio": {
+                "count": 29,
+                "max": 0.5428571428571428,
+                "mean": 0.3649240605550371,
+                "median": 0.36923076923076925,
+                "min": 0.25
+              },
+              "loan_amount_requested_kwd": {
+                "count": 30,
+                "max": 50000,
+                "mean": 16700.0,
+                "median": 14000.0,
+                "min": 3000
+              },
+              "monthly_cash_surplus_before_new_loan": {
+                "count": 30,
+                "max": 1450,
+                "mean": 677.0,
+                "median": 610.0,
+                "min": -400
+              },
+              "monthly_expenses_kwd": {
+                "count": 30,
+                "max": 950,
+                "mean": 547.3333333333334,
+                "median": 510.0,
+                "min": 260
+              },
+              "monthly_net_salary_kwd": {
+                "count": 30,
+                "max": 3200,
+                "mean": 1492.6666666666667,
+                "median": 1500.0,
+                "min": 0
+              },
+              "previous_defaults": {
+                "count": 30,
+                "max": 3,
+                "mean": 0.5666666666666667,
+                "median": 0.0,
+                "min": 0
+              },
+              "requested_loan_to_annual_income": {
+                "count": 29,
+                "max": 1.4285714285714286,
+                "mean": 0.8639442447255615,
+                "median": 0.7777777777777778,
+                "min": 0.3888888888888889
+              },
+              "years_employed": {
+                "count": 30,
+                "max": 32,
+                "mean": 11.925,
+                "median": 8.5,
+                "min": 0
+              }
+            }
+          }
+        }
+      },
+      "trigger_composition_notes": [
+        {
+          "categorical_comparison": [
+            {
+              "distributions_equal": false,
+              "field": "employment_status",
+              "left_distribution": {
+                "Full-time employed": 22,
+                "Self-employed": 7,
+                "Unemployed": 1
+              },
+              "right_distribution": {
+                "Full-time employed": 25,
+                "Self-employed": 3,
+                "Unemployed": 2
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "employer_type",
+              "left_distribution": {
+                "Government": 6,
+                "N/A": 1,
+                "Oil & Gas": 3,
+                "Private sector": 13,
+                "Self-employed": 7
+              },
+              "right_distribution": {
+                "Government": 7,
+                "N/A": 2,
+                "Oil & Gas": 6,
+                "Private sector": 12,
+                "Self-employed": 3
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "loan_purpose",
+              "left_distribution": {
+                "Debt consolidation": 2,
+                "Education": 6,
+                "Family expenses": 2,
+                "Home purchase": 1,
+                "Home renovation": 5,
+                "Investment property": 2,
+                "Medical expenses": 4,
+                "Small business": 6,
+                "Vehicle purchase": 2
+              },
+              "right_distribution": {
+                "Debt consolidation": 5,
+                "Education": 4,
+                "Family expenses": 3,
+                "Home purchase": 4,
+                "Home renovation": 3,
+                "Investment property": 1,
+                "Medical expenses": 1,
+                "Small business": 2,
+                "Vehicle purchase": 7
+              }
+            }
+          ],
+          "interpretation": "Observed composition difference only; plausible compositional contributor where patterns differ, not causal proof and not a fairness conclusion by itself.",
+          "numeric_comparison": [
+            {
+              "absolute_mean_delta": 2600.0,
+              "field": "loan_amount_requested_kwd",
+              "left_mean": 13000.0,
+              "right_mean": 15600.0
+            },
+            {
+              "absolute_mean_delta": 75.33333333333334,
+              "field": "existing_debt_monthly_kwd",
+              "left_mean": 202.33333333333334,
+              "right_mean": 277.6666666666667
+            },
+            {
+              "absolute_mean_delta": 69.66666666666674,
+              "field": "monthly_net_salary_kwd",
+              "left_mean": 1320.3333333333333,
+              "right_mean": 1390.0
+            },
+            {
+              "absolute_mean_delta": 56.0,
+              "field": "monthly_cash_surplus_before_new_loan",
+              "left_mean": 628.3333333333334,
+              "right_mean": 572.3333333333334
+            },
+            {
+              "absolute_mean_delta": 50.333333333333314,
+              "field": "monthly_expenses_kwd",
+              "left_mean": 489.6666666666667,
+              "right_mean": 540.0
+            },
+            {
+              "absolute_mean_delta": 1.1666666666666288,
+              "field": "credit_score",
+              "left_mean": 673.3333333333334,
+              "right_mean": 674.5
+            },
+            {
+              "absolute_mean_delta": 0.27500000000000036,
+              "field": "years_employed",
+              "left_mean": 9.716666666666667,
+              "right_mean": 9.991666666666667
+            },
+            {
+              "absolute_mean_delta": 0.10091748861610939,
+              "field": "requested_loan_to_annual_income",
+              "left_mean": 0.7592610266845212,
+              "right_mean": 0.8601785153006306
+            },
+            {
+              "absolute_mean_delta": 0.03437514356799265,
+              "field": "existing_debt_service_ratio",
+              "left_mean": 0.14328786117768735,
+              "right_mean": 0.17766300474568
+            },
+            {
+              "absolute_mean_delta": 0.0011250776432989995,
+              "field": "expense_to_income_ratio",
+              "left_mean": 0.3745169799115342,
+              "right_mean": 0.3733919022682352
+            },
+            {
+              "absolute_mean_delta": 0.0,
+              "field": "previous_defaults",
+              "left_mean": 0.6,
+              "right_mean": 0.6
+            }
+          ],
+          "trigger": {
+            "absolute_gap_pp": 20.0,
+            "grouping": "gender",
+            "investigation_triggered": true,
+            "left_group": "Female",
+            "left_rate": 0.26666666666666666,
+            "outcome": "Approve",
+            "right_group": "Male",
+            "right_rate": 0.4666666666666667,
+            "signed_gap_pp": -20.0
+          }
+        },
+        {
+          "categorical_comparison": [
+            {
+              "distributions_equal": false,
+              "field": "employment_status",
+              "left_distribution": {
+                "Full-time employed": 24,
+                "Self-employed": 5,
+                "Unemployed": 1
+              },
+              "right_distribution": {
+                "Full-time employed": 23,
+                "Self-employed": 5,
+                "Unemployed": 2
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "employer_type",
+              "left_distribution": {
+                "Government": 12,
+                "N/A": 1,
+                "Oil & Gas": 3,
+                "Private sector": 9,
+                "Self-employed": 5
+              },
+              "right_distribution": {
+                "Government": 1,
+                "N/A": 2,
+                "Oil & Gas": 6,
+                "Private sector": 16,
+                "Self-employed": 5
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "loan_purpose",
+              "left_distribution": {
+                "Debt consolidation": 4,
+                "Education": 5,
+                "Family expenses": 2,
+                "Home purchase": 3,
+                "Home renovation": 4,
+                "Investment property": 2,
+                "Medical expenses": 3,
+                "Small business": 4,
+                "Vehicle purchase": 3
+              },
+              "right_distribution": {
+                "Debt consolidation": 3,
+                "Education": 5,
+                "Family expenses": 3,
+                "Home purchase": 2,
+                "Home renovation": 4,
+                "Investment property": 1,
+                "Medical expenses": 2,
+                "Small business": 4,
+                "Vehicle purchase": 6
+              }
+            }
+          ],
+          "interpretation": "Observed composition difference only; plausible compositional contributor where patterns differ, not causal proof and not a fairness conclusion by itself.",
+          "numeric_comparison": [
+            {
+              "absolute_mean_delta": 4800.0,
+              "field": "loan_amount_requested_kwd",
+              "left_mean": 16700.0,
+              "right_mean": 11900.0
+            },
+            {
+              "absolute_mean_delta": 275.0,
+              "field": "monthly_net_salary_kwd",
+              "left_mean": 1492.6666666666667,
+              "right_mean": 1217.6666666666667
+            },
+            {
+              "absolute_mean_delta": 153.33333333333337,
+              "field": "monthly_cash_surplus_before_new_loan",
+              "left_mean": 677.0,
+              "right_mean": 523.6666666666666
+            },
+            {
+              "absolute_mean_delta": 65.00000000000006,
+              "field": "monthly_expenses_kwd",
+              "left_mean": 547.3333333333334,
+              "right_mean": 482.3333333333333
+            },
+            {
+              "absolute_mean_delta": 56.66666666666666,
+              "field": "existing_debt_monthly_kwd",
+              "left_mean": 268.3333333333333,
+              "right_mean": 211.66666666666666
+            },
+            {
+              "absolute_mean_delta": 30.83333333333337,
+              "field": "credit_score",
+              "left_mean": 689.3333333333334,
+              "right_mean": 658.5
+            },
+            {
+              "absolute_mean_delta": 4.1416666666666675,
+              "field": "years_employed",
+              "left_mean": 11.925,
+              "right_mean": 7.783333333333333
+            },
+            {
+              "absolute_mean_delta": 0.11218763382458008,
+              "field": "requested_loan_to_annual_income",
+              "left_mean": 0.8639442447255615,
+              "right_mean": 0.7517566109009814
+            },
+            {
+              "absolute_mean_delta": 0.06666666666666665,
+              "field": "previous_defaults",
+              "left_mean": 0.5666666666666667,
+              "right_mean": 0.6333333333333333
+            },
+            {
+              "absolute_mean_delta": 0.018403365332427257,
+              "field": "expense_to_income_ratio",
+              "left_mean": 0.3649240605550371,
+              "right_mean": 0.3833274258874644
+            },
+            {
+              "absolute_mean_delta": 0.003740997188408701,
+              "field": "existing_debt_service_ratio",
+              "left_mean": 0.16201157944398978,
+              "right_mean": 0.15827058225558108
+            }
+          ],
+          "trigger": {
+            "absolute_gap_pp": 26.666667,
+            "grouping": "nationality",
+            "investigation_triggered": true,
+            "left_group": "Kuwaiti",
+            "left_rate": 0.5,
+            "outcome": "Approve",
+            "right_group": "Expat",
+            "right_rate": 0.23333333333333334,
+            "signed_gap_pp": 26.666667
+          }
+        },
+        {
+          "categorical_comparison": [
+            {
+              "distributions_equal": false,
+              "field": "employment_status",
+              "left_distribution": {
+                "Full-time employed": 15,
+                "Self-employed": 4,
+                "Unemployed": 1
+              },
+              "right_distribution": {
+                "Full-time employed": 15,
+                "Self-employed": 3,
+                "Unemployed": 2
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "employer_type",
+              "left_distribution": {
+                "Government": 2,
+                "N/A": 1,
+                "Oil & Gas": 1,
+                "Private sector": 12,
+                "Self-employed": 4
+              },
+              "right_distribution": {
+                "Government": 6,
+                "N/A": 2,
+                "Oil & Gas": 2,
+                "Private sector": 7,
+                "Self-employed": 3
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "loan_purpose",
+              "left_distribution": {
+                "Debt consolidation": 3,
+                "Education": 5,
+                "Home renovation": 2,
+                "Small business": 4,
+                "Vehicle purchase": 6
+              },
+              "right_distribution": {
+                "Debt consolidation": 2,
+                "Education": 2,
+                "Family expenses": 2,
+                "Home purchase": 3,
+                "Home renovation": 1,
+                "Investment property": 2,
+                "Medical expenses": 5,
+                "Small business": 1,
+                "Vehicle purchase": 2
+              }
+            }
+          ],
+          "interpretation": "Observed composition difference only; plausible compositional contributor where patterns differ, not causal proof and not a fairness conclusion by itself.",
+          "numeric_comparison": [
+            {
+              "absolute_mean_delta": 5375.0,
+              "field": "loan_amount_requested_kwd",
+              "left_mean": 8975.0,
+              "right_mean": 14350.0
+            },
+            {
+              "absolute_mean_delta": 399.5,
+              "field": "monthly_net_salary_kwd",
+              "left_mean": 995.5,
+              "right_mean": 1395.0
+            },
+            {
+              "absolute_mean_delta": 189.0,
+              "field": "monthly_cash_surplus_before_new_loan",
+              "left_mean": 425.0,
+              "right_mean": 614.0
+            },
+            {
+              "absolute_mean_delta": 156.5,
+              "field": "monthly_expenses_kwd",
+              "left_mean": 395.0,
+              "right_mean": 551.5
+            },
+            {
+              "absolute_mean_delta": 54.0,
+              "field": "existing_debt_monthly_kwd",
+              "left_mean": 175.5,
+              "right_mean": 229.5
+            },
+            {
+              "absolute_mean_delta": 38.5,
+              "field": "credit_score",
+              "left_mean": 645.75,
+              "right_mean": 684.25
+            },
+            {
+              "absolute_mean_delta": 15.587499999999999,
+              "field": "years_employed",
+              "left_mean": 2.6125,
+              "right_mean": 18.2
+            },
+            {
+              "absolute_mean_delta": 0.15000000000000002,
+              "field": "previous_defaults",
+              "left_mean": 0.6,
+              "right_mean": 0.75
+            },
+            {
+              "absolute_mean_delta": 0.1030782039366055,
+              "field": "requested_loan_to_annual_income",
+              "left_mean": 0.6877609468201,
+              "right_mean": 0.7908391507567055
+            },
+            {
+              "absolute_mean_delta": 0.020100528066018808,
+              "field": "expense_to_income_ratio",
+              "left_mean": 0.3898143154478082,
+              "right_mean": 0.3697137873817894
+            },
+            {
+              "absolute_mean_delta": 0.008131466387250486,
+              "field": "existing_debt_service_ratio",
+              "left_mean": 0.14748205114007987,
+              "right_mean": 0.15561351752733035
+            }
+          ],
+          "trigger": {
+            "absolute_gap_pp": 25.0,
+            "grouping": "age_group",
+            "investigation_triggered": true,
+            "left_group": "Under 30",
+            "left_rate": 0.25,
+            "outcome": "Approve",
+            "right_group": "Over 50",
+            "right_rate": 0.5,
+            "signed_gap_pp": -25.0
+          }
+        },
+        {
+          "categorical_comparison": [
+            {
+              "distributions_equal": false,
+              "field": "employment_status",
+              "left_distribution": {
+                "Full-time employed": 17,
+                "Self-employed": 3
+              },
+              "right_distribution": {
+                "Full-time employed": 15,
+                "Self-employed": 3,
+                "Unemployed": 2
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "employer_type",
+              "left_distribution": {
+                "Government": 5,
+                "Oil & Gas": 6,
+                "Private sector": 6,
+                "Self-employed": 3
+              },
+              "right_distribution": {
+                "Government": 6,
+                "N/A": 2,
+                "Oil & Gas": 2,
+                "Private sector": 7,
+                "Self-employed": 3
+              }
+            },
+            {
+              "distributions_equal": false,
+              "field": "loan_purpose",
+              "left_distribution": {
+                "Debt consolidation": 2,
+                "Education": 3,
+                "Family expenses": 3,
+                "Home purchase": 2,
+                "Home renovation": 5,
+                "Investment property": 1,
+                "Small business": 3,
+                "Vehicle purchase": 1
+              },
+              "right_distribution": {
+                "Debt consolidation": 2,
+                "Education": 2,
+                "Family expenses": 2,
+                "Home purchase": 3,
+                "Home renovation": 1,
+                "Investment property": 2,
+                "Medical expenses": 5,
+                "Small business": 1,
+                "Vehicle purchase": 2
+              }
+            }
+          ],
+          "interpretation": "Observed composition difference only; plausible compositional contributor where patterns differ, not causal proof and not a fairness conclusion by itself.",
+          "numeric_comparison": [
+            {
+              "absolute_mean_delta": 5225.0,
+              "field": "loan_amount_requested_kwd",
+              "left_mean": 19575.0,
+              "right_mean": 14350.0
+            },
+            {
+              "absolute_mean_delta": 280.0,
+              "field": "monthly_net_salary_kwd",
+              "left_mean": 1675.0,
+              "right_mean": 1395.0
+            },
+            {
+              "absolute_mean_delta": 148.0,
+              "field": "monthly_cash_surplus_before_new_loan",
+              "left_mean": 762.0,
+              "right_mean": 614.0
+            },
+            {
+              "absolute_mean_delta": 85.5,
+              "field": "existing_debt_monthly_kwd",
+              "left_mean": 315.0,
+              "right_mean": 229.5
+            },
+            {
+              "absolute_mean_delta": 46.5,
+              "field": "monthly_expenses_kwd",
+              "left_mean": 598.0,
+              "right_mean": 551.5
+            },
+            {
+              "absolute_mean_delta": 9.45,
+              "field": "years_employed",
+              "left_mean": 8.75,
+              "right_mean": 18.2
+            },
+            {
+              "absolute_mean_delta": 7.5,
+              "field": "credit_score",
+              "left_mean": 691.75,
+              "right_mean": 684.25
+            },
+            {
+              "absolute_mean_delta": 0.3,
+              "field": "previous_defaults",
+              "left_mean": 0.45,
+              "right_mean": 0.75
+            },
+            {
+              "absolute_mean_delta": 0.14921112419660265,
+              "field": "requested_loan_to_annual_income",
+              "left_mean": 0.9400502749533082,
+              "right_mean": 0.7908391507567055
+            },
+            {
+              "absolute_mean_delta": 0.020721973466595156,
+              "field": "existing_debt_service_ratio",
+              "left_mean": 0.1763354909939255,
+              "right_mean": 0.15561351752733035
+            },
+            {
+              "absolute_mean_delta": 0.0069815116535636434,
+              "field": "expense_to_income_ratio",
+              "left_mean": 0.36273227572822575,
+              "right_mean": 0.3697137873817894
+            }
+          ],
+          "trigger": {
+            "absolute_gap_pp": 15.0,
+            "grouping": "age_group",
+            "investigation_triggered": true,
+            "left_group": "Age 30-50",
+            "left_rate": 0.35,
+            "outcome": "Approve",
+            "right_group": "Over 50",
+            "right_rate": 0.5,
+            "signed_gap_pp": -15.0
+          }
+        }
+      ]
+    },
+    "finding": "MATERIAL_AGGREGATE_DISPARITY_REQUIRES_INVESTIGATION",
+    "investigation_triggers": [
+      {
+        "absolute_gap_pp": 20.0,
+        "grouping": "gender",
+        "investigation_triggered": true,
+        "left_group": "Female",
+        "left_rate": 0.26666666666666666,
+        "outcome": "Approve",
+        "right_group": "Male",
+        "right_rate": 0.4666666666666667,
+        "signed_gap_pp": -20.0
+      },
+      {
+        "absolute_gap_pp": 26.666667,
+        "grouping": "nationality",
+        "investigation_triggered": true,
+        "left_group": "Kuwaiti",
+        "left_rate": 0.5,
+        "outcome": "Approve",
+        "right_group": "Expat",
+        "right_rate": 0.23333333333333334,
+        "signed_gap_pp": 26.666667
+      },
+      {
+        "absolute_gap_pp": 25.0,
+        "grouping": "age_group",
+        "investigation_triggered": true,
+        "left_group": "Under 30",
+        "left_rate": 0.25,
+        "outcome": "Approve",
+        "right_group": "Over 50",
+        "right_rate": 0.5,
+        "signed_gap_pp": -25.0
+      },
+      {
+        "absolute_gap_pp": 15.0,
+        "grouping": "age_group",
+        "investigation_triggered": true,
+        "left_group": "Age 30-50",
+        "left_rate": 0.35,
+        "outcome": "Approve",
+        "right_group": "Over 50",
+        "right_rate": 0.5,
+        "signed_gap_pp": -15.0
+      }
+    ],
+    "possible_proxy_status": {
+      "observed_group_composition_differences": [
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 19575.0,
+          "min_group": "Under 30",
+          "min_mean": 8975.0,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 10600.0
+        },
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 16700.0,
+          "min_group": "Expat",
+          "min_mean": 11900.0,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 4800.0
+        },
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 15600.0,
+          "min_group": "Female",
+          "min_mean": 13000.0,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 2600.0
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 1675.0,
+          "min_group": "Under 30",
+          "min_mean": 995.5,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 679.5
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 762.0,
+          "min_group": "Under 30",
+          "min_mean": 425.0,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 337.0
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 1492.6666666666667,
+          "min_group": "Expat",
+          "min_mean": 1217.6666666666667,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 275.0
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 598.0,
+          "min_group": "Under 30",
+          "min_mean": 395.0,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 203.0
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 677.0,
+          "min_group": "Expat",
+          "min_mean": 523.6666666666666,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 153.33333333333337
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 315.0,
+          "min_group": "Under 30",
+          "min_mean": 175.5,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 139.5
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 277.6666666666667,
+          "min_group": "Female",
+          "min_mean": 202.33333333333334,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 75.33333333333334
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 1390.0,
+          "min_group": "Female",
+          "min_mean": 1320.3333333333333,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 69.66666666666674
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 547.3333333333334,
+          "min_group": "Expat",
+          "min_mean": 482.3333333333333,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 65.00000000000006
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 268.3333333333333,
+          "min_group": "Expat",
+          "min_mean": 211.66666666666666,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 56.66666666666666
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Female",
+          "max_mean": 628.3333333333334,
+          "min_group": "Male",
+          "min_mean": 572.3333333333334,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 56.0
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 540.0,
+          "min_group": "Female",
+          "min_mean": 489.6666666666667,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 50.333333333333314
+        },
+        {
+          "field": "credit_score",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 691.75,
+          "min_group": "Under 30",
+          "min_mean": 645.75,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 46.0
+        },
+        {
+          "field": "credit_score",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 689.3333333333334,
+          "min_group": "Expat",
+          "min_mean": 658.5,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 30.83333333333337
+        },
+        {
+          "field": "years_employed",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Over 50",
+          "max_mean": 18.2,
+          "min_group": "Under 30",
+          "min_mean": 2.6125,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 15.587499999999999
+        },
+        {
+          "field": "years_employed",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 11.925,
+          "min_group": "Expat",
+          "min_mean": 7.783333333333333,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 4.1416666666666675
+        },
+        {
+          "field": "credit_score",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 674.5,
+          "min_group": "Female",
+          "min_mean": 673.3333333333334,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 1.1666666666666288
+        },
+        {
+          "field": "previous_defaults",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Over 50",
+          "max_mean": 0.75,
+          "min_group": "Age 30-50",
+          "min_mean": 0.45,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.3
+        },
+        {
+          "field": "years_employed",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 9.991666666666667,
+          "min_group": "Female",
+          "min_mean": 9.716666666666667,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.27500000000000036
+        },
+        {
+          "field": "requested_loan_to_annual_income",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 0.9400502749533082,
+          "min_group": "Under 30",
+          "min_mean": 0.6877609468201,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.25228932813320815
+        },
+        {
+          "field": "requested_loan_to_annual_income",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Kuwaiti",
+          "max_mean": 0.8639442447255615,
+          "min_group": "Expat",
+          "min_mean": 0.7517566109009814,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.11218763382458008
+        },
+        {
+          "field": "requested_loan_to_annual_income",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 0.8601785153006306,
+          "min_group": "Female",
+          "min_mean": 0.7592610266845212,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.10091748861610939
+        },
+        {
+          "field": "previous_defaults",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Expat",
+          "max_mean": 0.6333333333333333,
+          "min_group": "Kuwaiti",
+          "min_mean": 0.5666666666666667,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.06666666666666665
+        },
+        {
+          "field": "existing_debt_service_ratio",
+          "grouping": "gender",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Male",
+          "max_mean": 0.17766300474568,
+          "min_group": "Female",
+          "min_mean": 0.14328786117768735,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.03437514356799265
+        },
+        {
+          "field": "existing_debt_service_ratio",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Age 30-50",
+          "max_mean": 0.1763354909939255,
+          "min_group": "Under 30",
+          "min_mean": 0.14748205114007987,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.02885343985384564
+        },
+        {
+          "field": "expense_to_income_ratio",
+          "grouping": "age_group",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Under 30",
+          "max_mean": 0.3898143154478082,
+          "min_group": "Age 30-50",
+          "min_mean": 0.36273227572822575,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.02708203971958245
+        },
+        {
+          "field": "expense_to_income_ratio",
+          "grouping": "nationality",
+          "interpretation": "Observed group-correlated neutral feature difference; not a proxy classification.",
+          "max_group": "Expat",
+          "max_mean": 0.3833274258874644,
+          "min_group": "Kuwaiti",
+          "min_mean": 0.3649240605550371,
+          "note_type": "OBSERVED_GROUP_COMPOSITION_DIFFERENCE",
+          "observed_mean_delta": 0.018403365332427257
+        }
+      ],
+      "possible_proxy_candidates_for_investigation": [
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "age_group",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Age 30-50",
+          "max_mean": 19575.0,
+          "min_group": "Under 30",
+          "min_mean": 8975.0,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 10600.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "nationality",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Kuwaiti",
+          "max_mean": 16700.0,
+          "min_group": "Expat",
+          "min_mean": 11900.0,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 4800.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "loan_amount_requested_kwd",
+          "grouping": "gender",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Male",
+          "max_mean": 15600.0,
+          "min_group": "Female",
+          "min_mean": 13000.0,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 2600.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "age_group",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Age 30-50",
+          "max_mean": 1675.0,
+          "min_group": "Under 30",
+          "min_mean": 995.5,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 679.5,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "age_group",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Age 30-50",
+          "max_mean": 762.0,
+          "min_group": "Under 30",
+          "min_mean": 425.0,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 337.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "nationality",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Kuwaiti",
+          "max_mean": 1492.6666666666667,
+          "min_group": "Expat",
+          "min_mean": 1217.6666666666667,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 275.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "age_group",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Age 30-50",
+          "max_mean": 598.0,
+          "min_group": "Under 30",
+          "min_mean": 395.0,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 203.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "nationality",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Kuwaiti",
+          "max_mean": 677.0,
+          "min_group": "Expat",
+          "min_mean": 523.6666666666666,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 153.33333333333337,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "age_group",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Age 30-50",
+          "max_mean": 315.0,
+          "min_group": "Under 30",
+          "min_mean": 175.5,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 139.5,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "gender",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Male",
+          "max_mean": 277.6666666666667,
+          "min_group": "Female",
+          "min_mean": 202.33333333333334,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 75.33333333333334,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_net_salary_kwd",
+          "grouping": "gender",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Male",
+          "max_mean": 1390.0,
+          "min_group": "Female",
+          "min_mean": 1320.3333333333333,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 69.66666666666674,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "nationality",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Kuwaiti",
+          "max_mean": 547.3333333333334,
+          "min_group": "Expat",
+          "min_mean": 482.3333333333333,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 65.00000000000006,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "existing_debt_monthly_kwd",
+          "grouping": "nationality",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Kuwaiti",
+          "max_mean": 268.3333333333333,
+          "min_group": "Expat",
+          "min_mean": 211.66666666666666,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 56.66666666666666,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_cash_surplus_before_new_loan",
+          "grouping": "gender",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Female",
+          "max_mean": 628.3333333333334,
+          "min_group": "Male",
+          "min_mean": 572.3333333333334,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 56.0,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        },
+        {
+          "field": "monthly_expenses_kwd",
+          "grouping": "gender",
+          "interpretation": "Possible proxy-candidate for investigation because this grouping has an approval-rate trigger; evidence is insufficient to classify it as a proxy.",
+          "max_group": "Male",
+          "max_mean": 540.0,
+          "min_group": "Female",
+          "min_mean": 489.6666666666667,
+          "note_type": "POSSIBLE_PROXY_CANDIDATE_FOR_INVESTIGATION",
+          "observed_mean_delta": 50.333333333333314,
+          "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+        }
+      ],
+      "proxy_classification": "INSUFFICIENT_EVIDENCE_TO_CLASSIFY_AS_PROXY"
+    }
+  },
+  "rule_is_legal_threshold": false,
+  "schema_version": "fairness_investigation_v1"
+}

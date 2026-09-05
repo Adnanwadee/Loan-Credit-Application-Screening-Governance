@@ -1,46 +1,39 @@
 # Responsible AI Bias Summary
 
-## The Three Types of Bias in Financial-Services AI
+AI-assisted lending is a high-impact use case because screening outcomes can materially affect a person's access to credit and financial opportunities. For this reason, a lending AI system should not be evaluated only on whether it produces plausible recommendations. It must also be examined for bias, explainability, auditability, and appropriate human oversight.
 
-**Historical bias** occurs when training or prompting data reflects past
-discriminatory lending decisions, so the model reproduces them even when
-they were wrong. Example: if a bank historically declined more applicants
-from certain postcodes or employer categories due to past redlining-style
-practices, a model trained or prompted on that pattern will keep declining
-similar applicants today, regardless of their actual current creditworthiness.
+## Historical Bias
 
-**Representation bias** occurs when some applicant groups are
-under-sampled in the evaluation or reference data, so the system's
-behavior for that group is effectively untested. Example: if an
-evaluation dataset contains mostly full-time salaried applicants and very
-few self-employed or gig-economy applicants, the model's reliability for
-self-employed applicants is unknown — errors there simply won't surface
-in aggregate metrics because that group is a small share of the test set.
+Historical bias occurs when historical data or past decision patterns already contain unfair or discriminatory treatment and an AI system reproduces those patterns.
 
-**Measurement / proxy bias** occurs when a feature that looks neutral is
-actually correlated with a protected attribute, so it silently carries
-the same signal even if the protected attribute itself is removed.
-Example: "years at current address" or "years employed" can proxy for
-age; "employer type" (e.g., government vs. private sector) can
-correlate with nationality in a market like Kuwait's, where public-sector
-employment skews toward Kuwaiti nationals.
+**Financial-services example:** if a lender historically rejected applicants from certain neighborhoods more often for reasons unrelated to their actual financial risk, a model trained on those past decisions may learn and reproduce the same pattern.
 
-## Fairness Metrics
+The main risk is that historical data can encode previous human or institutional bias rather than objective creditworthiness.
 
-Demographic parity asks whether outcome rates are similar across groups.
-Equalized odds asks whether error rates are similar across groups
-*conditional on actual outcomes* (true creditworthiness), which requires
-ground-truth repayment/default labels. This project computes demographic
-outcome-rate diagnostics only; equalized odds is documented as not
-computable because no real repayment/default ground truth exists for the
-synthetic dataset.
+## Representation Bias
 
-## Interpretability vs. Explainability
+Representation bias occurs when some applicant groups are underrepresented in the data used to evaluate or validate an AI system.
 
-Interpretability describes how understandable the model or rules are
-internally. Explainability describes how the system communicates a
-decision after the fact. This project uses deterministic post-hoc
-explanations that bind selected evidence fields to stored applicant
-values, and explicitly separates those explanations from the model's
-hidden reasoning — the explanation is not a guaranteed faithful account
-of why the model produced its output.
+**Financial-services example:** if an evaluation dataset contains mostly full-time salaried applicants and very few self-employed applicants, overall results may appear acceptable while the system's behavior for self-employed applicants remains insufficiently tested.
+
+In this project, the synthetic evaluation dataset was intentionally balanced across gender, nationality, and age groups to support group comparison. However, a balanced synthetic dataset is not the same as a representative real-world lending population.
+
+## Measurement and Proxy Bias
+
+Measurement bias occurs when a feature does not accurately measure the concept it is intended to represent. Proxy bias occurs when a seemingly neutral feature is correlated with a protected attribute and indirectly carries related information.
+
+**Financial-services example:** variables such as years employed, employer type, or residential stability may correlate with a protected characteristic in a particular dataset. Removing the protected attribute itself therefore does not automatically guarantee that all related information has been removed.
+
+In this project, possible proxy risk was investigated by comparing financial-profile composition across protected groups and by using controlled similar-profile pairs. The available evidence was not sufficient to establish that any specific neutral feature functions as a protected-attribute proxy.
+
+## Project Relevance
+
+These three bias types affect different parts of the AI lifecycle:
+
+- historical bias concerns patterns inherited from prior decisions or data,
+- representation bias concerns who is sufficiently represented in evaluation,
+- measurement/proxy bias concerns how features may encode sensitive information indirectly.
+
+The project therefore treats fairness analysis as an investigation process rather than a single pass/fail number. Observed group disparities are measured, possible contributors are investigated, a mitigation is tested, and the limitations of the evidence are documented.
+
+The final project does not claim that fairness has been proven or that bias has been eliminated. Instead, it demonstrates how a lending AI system can be evaluated and governed more responsibly.

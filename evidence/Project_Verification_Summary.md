@@ -118,7 +118,6 @@ The implementation includes several controls beyond the minimum acceptance crite
 - structured model and prompt provenance,
 - reviewer acceptance and override workflow,
 - controlled similar-profile pair diagnostics,
-- SHA-256 submission manifest,
 - behavior-focused local regression tests,
 - environment-variable handling for watsonx.ai credentials,
 - separation between submitted stored evidence and future `runtime_outputs/`.

@@ -57,6 +57,7 @@ The governance information covers the main areas required for this project:
 The governance record is maintained in watsonx.governance.
 
 The repository contains a textual summary of the governed configuration rather than claiming that a standalone exported Factsheet document is included.
+Conceptually, this governance record serves a similar documentation purpose to a model card by recording the system's intended use, model and prompt identity, evaluation context, known limitations, fairness findings, and required human oversight.
 
 ## Intended Use Recorded for Governance
 

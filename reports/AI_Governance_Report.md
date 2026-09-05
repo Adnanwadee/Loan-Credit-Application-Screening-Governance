@@ -359,6 +359,7 @@ The local review workflow supports:
 This design preserves human accountability and gives the reviewer enough evidence to challenge or override the model recommendation.
 
 The AI recommendation therefore remains advisory within the project architecture.
+Where an unfavorable credit decision would trigger adverse-action notice obligations under applicable law, a production system would require a legally reviewed applicant-facing notice that provides specific reasons for the decision. This prototype does not implement or claim to generate a legally compliant adverse-action notice; it only demonstrates the underlying requirement for specific, evidence-grounded reasons and accountable human review.
 
 ## 7. Known Limitations
 

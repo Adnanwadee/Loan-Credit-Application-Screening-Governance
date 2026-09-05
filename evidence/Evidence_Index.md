@@ -118,8 +118,6 @@ This index identifies the primary implementation, evaluation, fairness, review, 
 - `tests/`  
   Behavior-focused regression tests covering configuration, screening validation, retry behavior, explainability, fairness analysis, feature derivation, logging, review routing, and policy handling.
 
-- `SHA256SUMS.txt`  
-  SHA-256 manifest for repository submission files.
 
 ## Primary Written Deliverables
 
